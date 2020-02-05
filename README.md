@@ -1,5 +1,6 @@
 # e15 Spring 2020
 Course work for Harvard Extension CSCI E-15
+<img src="images/hes-logo.png">
 
 # Project 1
 + By: *Robelyn Garcia*
