@@ -1,5 +1,5 @@
-# e15 Spring 2020
-Course work for Harvard Extension CSCI E-15
+# Course work for Harvard Extension CSCI E-15: Spring 2020
+
 <img src="images/hes-logo.png">
 
 # Project 1
