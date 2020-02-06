@@ -1,4 +1,4 @@
-# Course work for Harvard Extension CSCI E-15: Spring 2020
+# Course work for Harvard EXT CSCI E-15: Spring 2020
 
 <img src="images/hes-logo.png">
 
