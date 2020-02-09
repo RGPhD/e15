@@ -9,9 +9,11 @@
 
     <h1>e15 Project 1</h1>
 
-    <p>
-       Robelyn Garcia 
-    </p>
+    <p> Robelyn Garcia </p>
+
+    <!-- Professor Sample -->
+    <p><?php echo $result1; ?></p>
+    <p><?php echo $result2; ?></p>
 
 <hr>
 
