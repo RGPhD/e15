@@ -6,4 +6,5 @@
 + *List of outside resources go here.*
 
 ## Notes for instructor
-+ *Notes to refer to while grading.*
++ Practiced my PHP logic at <https://paiza.io/projects/Onbph9MXVJCnw4TnW3OGcg>.
++ Practiced my HTML & CSS at <https://codepen.io/DrRobelynGarcia/pen/poJJwvb>.
