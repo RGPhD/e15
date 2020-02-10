@@ -1,0 +1,19 @@
+h1 {
+    color: #cc0000;
+    text-align: center;
+    border-bottom: thick solid #cc0000;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  footer {
+    color: #cc0000;
+    text-align: center;
+    border-top: thick solid #cc0000;
+  }  
