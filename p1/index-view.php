@@ -12,20 +12,32 @@
 
 <body>
   <h1>PHP String Processor: E-15 Project 1</h1>
-  <h2>by Robelyn Garcia</>
+  
+  <br>
+  
+  <div class='results'>
+  <form method='POST' action='process.php'>
+        <label for='inputString'>Enter a word string:</label>
+        <input type='text' id='inputString' name='inputString'>
+        <button type='submit'>Submit</button>
+    </form>
 
-    <p><?php echo $result1; ?></p>
-    <p><?php echo $result2; ?></p>
+    <?php if (isset($results)) : ?>
+    <h2>RESULTS:</h2>
 
-    <p><?php echo $result3; ?></p>
-    <p><?php echo $result4; ?></p>
+    <h3>Word String</h3>
+    <?=$inputString ?>
 
-    <p><?php echo $result5; ?></p>
-    <p><?php echo $result6; ?></p>
-
-    <p><?php echo $result7; ?></p>
-    <p><?php echo $result8; ?></p>
-
+    <h3>Palindrome</h3>
+    <?=$isPalindrome ?>
+    
+    <h3>Vowel Count</h3>
+    <?=$vowelCount ?>
+    
+    <h2>Uppercase</h3>
+    <?=$upperCase ?>
+    <?php endif ?>
+</div>
       <br>
     <footer>
       <br>

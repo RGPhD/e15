@@ -1,16 +1,44 @@
+body {
+  font-family: Helvetica;
+}
+
 h1 {
-    color: #cc0000;
+  color: #cc0000;
+  text-align: center;
+  border-bottom: thick solid #cc0000;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+input {
+  font-size: 25px;
+}
+button {
+  font-size: 25px;
+  background: #d3d3d3;
+  border: solid #cc0000;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 130%;
+  padding: 10px;
+}
+
+  .results {
+    width: 600px;
     text-align: center;
-    border-bottom: thick solid #cc0000;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  h3 {
-    text-align: center;
-  }
+    border: thick solid #cc0000;
+    padding: 10px;
+    margin: auto;
+}
   
   footer {
     color: #cc0000;
