@@ -36,6 +36,10 @@
     
     <h2>Uppercase</h3>
     <?=$upperCase ?>
+    <br>
+    <p><div>
+      <button value="Refresh Page" onClick="window.location.reload();">Click to Refresh Page and Play Again</button>
+    </div></p>
     <?php endif ?>
 </div>
       <br>
