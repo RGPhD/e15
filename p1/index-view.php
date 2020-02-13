@@ -17,8 +17,8 @@
 
   <div class='results'>
     <form method='POST' action='process.php'>
-      <label for='inputString'>Enter a word string:</label>
-      <input type='text' id='inputString' name='inputString'>
+      <label for='inputString'>Enter a word string below:</label>
+      <input placeholder='enter string here' autofocus type='text' id='inputString' name='inputString'>
       <button type='submit'>Submit</button>
     </form>
 
@@ -39,7 +39,7 @@
     <br>
     <p>
       <div>
-        <button value="Refresh Page" onClick="window.location.reload();">Click to Refresh Page and Play Again</button>
+        <button value="Refresh Page" onClick="window.location.reload();">Click to Refresh and Process Another String</button>
       </div>
     </p>
     <?php endif ?>
@@ -54,7 +54,7 @@
     </a>
 
     <p><a href="https://www.extension.harvard.edu" target="_blank"
-        title="Click to visit Harvard Extension School">Harvard University Extension School</a></p>
+        title="Click or Tap to visit Harvard Extension School">Harvard University Extension School</a></p>
   </footer>
 
 </body>
