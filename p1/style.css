@@ -1,5 +1,7 @@
+/* Style for e15p1.robelyngarcia.me css below! */
+
 body {
-  font-family: Helvetica;
+  font-family: verdana, arial, helvetica, sans-serif;
 }
 
 h1 {
@@ -19,6 +21,7 @@ h3 {
 input {
   font-size: 25px;
 }
+
 button {
   font-size: 25px;
   background: #d3d3d3;
@@ -32,16 +35,16 @@ label {
   padding: 10px;
 }
 
-  .results {
-    width: 600px;
-    text-align: center;
-    border: thick solid #cc0000;
-    padding: 10px;
-    margin: auto;
+.results {
+  width: 600px;
+  text-align: center;
+  border: thick solid #cc0000;
+  padding: 10px;
+  margin: auto;
 }
-  
-  footer {
-    color: #cc0000;
-    text-align: center;
-    border-top: thick solid #cc0000;
-  }  
+
+footer {
+  color: #cc0000;
+  text-align: center;
+  border-top: thick solid #cc0000;
+}

@@ -14,7 +14,7 @@ $nickels = 25;
 $dimes = 100;
 $quarters = 34;
 
-# Add up how much money is in the piggy bank
+# Add up how much money is in the PHpiggy bank
 $total = ($pennies * $penny_value) + ($nickels * $nickel_value) + ($dimes * $dime_value) + ($quarters * $quarter_value);
 
 # Can remove the closing php tag if only php is in the file.
