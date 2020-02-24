@@ -6,7 +6,9 @@ $inputString = $_POST['inputString'];
 
 function isPalindrome($inputString)
 {
-    if (strrev($inputString)==($inputString)) {
+    $inputStringlower = strtolower($inputString);
+
+    if (strrev($inputStringlower)==($inputStringlower)) {
         return 'This is a Palindrome';
     } else {
         return 'This is not a Palindrome';
