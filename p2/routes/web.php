@@ -12,19 +12,6 @@
 */
 
 Route::get('/', function () {
-   //comment out return '<h1>My Bookmark APP</>';
-    return view('welcome');
-});
-
-Route::get('/example', function () {
-    return 'Example... hello there!';
-    
-});
-
-# Route::get('/books', function () {
-#    return 'Here are all the books...';
-# });
-
-Route::get('/book/{id}', function ($id) {
-    return 'You have requested book #'.$id;
+   // return view('welcome');
+   return "Initialize my new p2 Laravel application";
 });
