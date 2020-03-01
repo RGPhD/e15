@@ -19,6 +19,6 @@
 + By: *Robelyn Garcia*
 + Production URL: <http://e15p3.robelyngarcia.me>
 
-# Project 4 Independent Study
+# Independent Study Graduate Project
 + By: *Robelyn Garcia*
-+ Production URL: <http://e15p4.robelyngarcia.me>
++ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
