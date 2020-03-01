@@ -21,4 +21,4 @@
 
 # Independent Study Graduate Project
 + By: *Robelyn Garcia*
-+ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
++ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study>
