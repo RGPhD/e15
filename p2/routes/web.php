@@ -13,5 +13,5 @@
 
 Route::get('/', function () {
    // return view('welcome');
-   return "Initialize my new p2 Laravel application";
+   return "Initialize my p2 Laravel application";
 });
