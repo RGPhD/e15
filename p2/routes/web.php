@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-   // return view('welcome');
-   return "Initialize my p2 Laravel application";
-});
+# Homepage
+Route::get('/', 'PageController@welcome');
+
+# Forms
+Route::get('/forms', 'FormController@index');
+Route::get('/forms/{title?}', 'FormController@show');
