@@ -1,5 +1,21 @@
 <?php
 
+# Example route used to demonstrate error pages
+Route::get('/example', function () {
+    //$foo = [1,2,3];
+
+    # dump, die
+    //dd(storage_path('temp'));
+
+    # dump, die, debug
+    //ddd($foo);
+
+    //Log::info($foo);
+
+    return 'example route';
+});
+
+
 /* Web Routes */
 
 Route::get('/', 'PageController@welcome');

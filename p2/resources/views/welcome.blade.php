@@ -2,5 +2,6 @@
 @extends('layouts.master')
 
 @section('content')
-<p>Welcome to My P2 App</p>
+<h1>Welcome to My P2 App</h1>
+<p>Assessing Obesity Beyond BMI</p>
 @endsection

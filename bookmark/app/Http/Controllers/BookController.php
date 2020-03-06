@@ -16,6 +16,14 @@ class BookController extends Controller
 
     /* GET /books/{title}
 */
+
+ /* public function show($title = null)
+{
+    dump($title);
+    return view('books.show');
+}end */
+
+
 public function show($title)
     {
         # Query the database for a book where the title = $title
