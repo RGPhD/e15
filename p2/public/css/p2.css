@@ -9,9 +9,9 @@
 
 h1 {
     font-family: Times, serif;
-    color: #000099;
+    color: crimson;
     text-align: center;
-    border-bottom: thick solid #CC3300;
+    border-bottom: thick solid crimson;
 }
 
 h2 {
@@ -20,10 +20,10 @@ h2 {
 }      
 
 footer {
-    color: #CC3300;
+    color: crimson;
     margin: auto;
     text-align: center;
     font-size: 110%;
     font-weight: bold;
-    border-top: thick solid #CC3300;
+    border-top: thick solid crimson;
   }
