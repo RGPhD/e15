@@ -15,6 +15,12 @@ Route::get('/example', function () {
     return 'example route';
 });
 
+Route::get('/edit', function () {
+
+    return ('books.edit');
+});
+
+Route::get('/book', 'BookController@index');
 
 /* Web Routes */
 

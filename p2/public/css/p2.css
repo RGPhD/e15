@@ -4,8 +4,26 @@
     displaying half-size so it looks crisp on high-resolution displays 
     */
     width: 362px;
+    margin: auto;
 }
 
 h1 {
-    font-family: "Helvetica", sans-serif;
+    font-family: Times, serif;
+    color: #000099;
+    text-align: center;
+    border-bottom: thick solid #CC3300;
 }
+
+h2 {
+    font-family: Times, serif;
+    color: #000099;
+}      
+
+footer {
+    color: #CC3300;
+    margin: auto;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    border-top: thick solid #CC3300;
+  }

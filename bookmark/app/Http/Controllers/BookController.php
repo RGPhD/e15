@@ -36,6 +36,13 @@ public function show($title)
         return view('books.show')->with(['title' => $title, 'bookFound' => $bookFound]);
     }
 
+    public function edit($title = null)
+{
+    dump($title);
+    return view('books.edit');
+}
+
+
 /* GET /filter/{$category}/{subcategory?}
      */
     public function filter($category, $subcategory = null)
