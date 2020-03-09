@@ -17,7 +17,11 @@ h1 {
 h2 {
     font-family: Times, serif;
     color: #000099;
-}      
+}
+
+legend {
+    font-weight: bold;
+}
 
 footer {
     color: crimson;

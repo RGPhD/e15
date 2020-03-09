@@ -18,9 +18,9 @@
     <form method='GET' action='process.php'>
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
-
+        <br>
         <div>
-          <label for='hips'>Enter your Hip Circumference in Inches Below:</label> <br>
+        <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
           <input type='text' id='hips' placeholder='Enter your Hip size in Inches'>
         </div>
 
@@ -109,6 +109,7 @@
           <br>
           <button type='submit' title='Good Luck!'>Click to Calculate</button>
         </div>
+        <br>
       </fieldset>
     </form>
     <br>
