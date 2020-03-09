@@ -12,7 +12,7 @@
 */
 
 # Homepage
-Route::get('/', 'PageController@welcome');
+Route::get('/', 'PageController@index');
 
 # Forms
 Route::get('/forms', 'FormController@index');

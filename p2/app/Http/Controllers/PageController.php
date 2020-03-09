@@ -9,8 +9,8 @@ class PageController extends Controller
     /**
      * GET /
      */
-    public function welcome()
+    public function index()
     {
-        return view('welcome');
+        return view('index');
     }
 }
