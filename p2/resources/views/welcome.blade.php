@@ -7,7 +7,7 @@
     <h2>Instructions</h2>
     <ul>
       <li>Measure your waist at the narrowest point and your hips at the widest point.</li>
-      <li>Enter your Hip Circumference.</li>
+      <li>Enter your Hip Circumference in Inches.</li>
       <li>Select your Waist Circumference. (If your waist is smaller than 10 in or larger than 70 in, please see your Doctor immediately)</li>
       <li>Select your Gender.</li>
       <li>Click the Calculate Button to reveal your Results!</li>
