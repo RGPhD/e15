@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Form library...
+    Form library information ...
 @endsection
 
 @section('content')

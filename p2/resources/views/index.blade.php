@@ -15,7 +15,7 @@
 
     <h2>Calculate your Waist-to-Hip Ratio</h2>
     <!-- Using GET default method -->
-    <form method='GET' action='process.php'>
+    <form method='GET' action='forms'>
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
         <br>

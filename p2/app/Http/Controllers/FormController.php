@@ -12,8 +12,9 @@ class FormController extends Controller
     public function index()
     {
         return view('forms.index')->with(['forms' => [
-            ['title' => 'War and Peace'],
-            ['title' => 'The Great Gatsby']
+            ['title' => 'Hips'],
+            ['title' => 'Waist'],
+            ['title' => 'WTH Ratio Form Data']
         ]]);
     }
 
