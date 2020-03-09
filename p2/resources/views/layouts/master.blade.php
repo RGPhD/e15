@@ -2,7 +2,7 @@
 <html lang='en'>
 
 <head>
-    <title>@yield('title', 'P2')</title>
+    <title>@yield('title', 'P2 App - Beyond BMI')</title>
     <meta charset='utf-8'>
 
     <link href='/css/p2.css' rel='stylesheet'>
