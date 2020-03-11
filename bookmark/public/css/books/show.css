@@ -1,3 +1,15 @@
 /* body {
     background-color: red;
 } remove this and add styles later */
+section#main {}
+
+.description {
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+img.cover {
+    width: 150px;
+}

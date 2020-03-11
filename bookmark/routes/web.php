@@ -1,31 +1,42 @@
 <?php
 
+Route::get('/example2', function () {
+    dump(Arr::sort(['a', 'z', 'g']));
+});
+
 # Example route used to demonstrate error pages
 Route::get('/example', function () {
-    //$foo = [1,2,3];
+    $foo = [1,2,3];
 
     # dump, die
-    //dd(storage_path('temp'));
+    //dd($foo);
 
     # dump, die, debug
     //ddd($foo);
 
-    //Log::info($foo);
+    Log::info($foo);
 
-    return 'example route';
+    ddd(storage_path('temp'));
+
+    return view('abc');
 });
 
-Route::get('/edit', function () {
-
-    return ('books.edit');
-});
-
-Route::get('/book', 'BookController@index');
-
-/* Web Routes */
-
+# Misc. Pages
 Route::get('/', 'PageController@welcome');
+Route::get('/support', 'PageController@support');
+
+
+# Books
+Route::get('/books/create', 'BookController@create');
+Route::post('/books', 'BookController@store');
+
 Route::get('/books', 'BookController@index');
-Route::get('/books/{title}', 'BookController@show');
-           // or with ? after title?
-Route::get('/filter/{category}/{subcategory?}', 'BookController@filter');
+Route::get('/books/{slug?}', 'BookController@show');
+
+Route::get('/search', 'BookController@search');
+
+Route::get('/list', 'BookController@list');
+
+# This was an example route to show multiple parameters;
+# Not a feature we're actually building, so I'm commenting out
+# Route::get('/filter/{category}/{subcategory?}', 'BookController@filter');
