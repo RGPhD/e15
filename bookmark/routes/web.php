@@ -8,7 +8,7 @@ Route::get('/example2', function () {
 Route::get('/example', function () {
     $foo = [1,2,3];
 
-    # dump, die
+    # dump, die for quiz
     //dd($foo);
 
     # dump, die, debug
