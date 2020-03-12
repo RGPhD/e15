@@ -21,7 +21,7 @@
         <br>
         <div>
         <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
-          <input type='text' id='hips' placeholder='Enter your Hip size in Inches'>
+          <input type='text' name='hips' id='hips' placeholder='Enter your Hip size in Inches'>
         </div>
 
         <br>
@@ -30,7 +30,7 @@
         <div>
           <label for="waist"> Select Inches (10-70 inches)</label>
 
-          <select id="waist">
+          <select id="waist" name='waist'>
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
@@ -111,6 +111,16 @@
         </div>
         <br>
       </fieldset>
+
+<!-- Profressor suggests red styling for errors -->
+      @if(count($errors) > 0)
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+      @endif
+
     </form>
     <br>
 @endsection

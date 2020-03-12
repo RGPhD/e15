@@ -7,10 +7,19 @@ use Illuminate\Http\Request;
 class FormController extends Controller
 {
     /**
-     * GET /forms
+     * GET /forms 
      */
-    public function index()
-    {
+    public function index(Request $request) {
+    
+        $request->validate([
+            'hips'  => 'required|digits:2',
+            'waist' => 'required',
+            'gender' => 'required'
+        ]);
+        # Profressor suggests red styling for errors
+        # Note: if validation fails, it will redirect
+        # back to `/` (page from which the form was submitted)
+
         return view('forms.index')->with(['forms' => [
             ['title' => 'Hips'],
             ['title' => 'Waist'],
