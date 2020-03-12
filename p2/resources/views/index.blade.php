@@ -21,7 +21,8 @@
         <br>
         <div>
         <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
-          <input type='text' name='hips' id='hips' placeholder='Enter your Hip size in Inches'>
+          <input type='text' name='hips' id='hips' placeholder='Enter your Hip size in Inches' value='{{ old('hips') }}'>
+          <!-- Add valid hips variable as second option for old -->
         </div>
 
         <br>
@@ -31,6 +32,7 @@
           <label for="waist"> Select Inches (10-70 inches)</label>
 
           <select id="waist" name='waist'>
+            <option value="Below 10">Less than 10</option>
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
@@ -92,16 +94,20 @@
             <option value="68">68</option>
             <option value="69">69</option>
             <option value="70">70</option>
+            <option value="Above 70">Above 70</option>
           </select>
         </div>
         <br>
         <legend>Select your Gender Below:</legend>
         <div>
-          <input type='radio' value='Male' id='Male' name='gender'>
+          <input type='radio' value='Male' id='Male' name='gender'  
+          {{ (old('gender') == 'Male') ? 'checked' : '' }}>
+          
           <label for='Male'> Male</label>
         </div>
         <div>
-          <input type='radio' value='Female' id='Female' name='gender'>
+          <input type='radio' value='Female' id='Female' name='gender'
+          {{ (old('gender') == 'Female') ? 'checked' : '' }}>
           <label for='Female'> Female</label>
         </div>
 

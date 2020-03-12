@@ -13,7 +13,7 @@ class FormController extends Controller
     
         $request->validate([
             'hips'  => 'required|digits:2',
-            'waist' => 'required',
+            'waist' => 'required|digits:2',
             'gender' => 'required'
         ]);
         # Profressor suggests red styling for errors
