@@ -15,14 +15,14 @@
 
     <h2>Calculate your Waist-to-Hip Ratio</h2>
     <!-- Using GET default method -->
-    <form method='GET' action='forms'>
+    <form method='GET' action='/forms'>
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
         <br>
         <div>
         <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
           <input type='text' name='hips' id='hips' placeholder='Enter your Hip size in Inches' value='{{ old('hips') }}'>
-          <!-- Add valid hips variable as second option for old -->
+          <!-- Adding valid hips variable as second option for old is optional for p2 -->
         </div>
 
         <br>
@@ -31,10 +31,11 @@
         <div>
           <label for="waist"> Select Inches (10-70 inches)</label>
 
+          <!-- Add old method for every value 10-70 -->                      
           <select id="waist" name='waist'>
             <option value="Below 10">Less than 10</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
+            <option value="10" {{ (old('waist') == '10') ? 'selected' : '' }}>10</option>
+            <option value="11" {{ (old('waist') == '11') ? 'selected' : '' }}>11</option>
             <option value="12">12</option>
             <option value="13">13</option>
             <option value="14">14</option>
@@ -95,6 +96,7 @@
             <option value="69">69</option>
             <option value="70">70</option>
             <option value="Above 70">Above 70</option>
+            <!-- Add old method for drop down menu to save data -->
           </select>
         </div>
         <br>
@@ -109,6 +111,7 @@
           <input type='radio' value='Female' id='Female' name='gender'
           {{ (old('gender') == 'Female') ? 'checked' : '' }}>
           <label for='Female'> Female</label>
+          <!-- Adding valid gender variable as second option for old is optional for p2 -->
         </div>
 
         <div>
@@ -118,7 +121,7 @@
         <br>
       </fieldset>
 
-<!-- Profressor suggests red styling for errors -->
+<!-- Profressor suggests red styling for errors in css -->
       @if(count($errors) > 0)
     <ul>
         @foreach ($errors->all() as $error)
@@ -128,5 +131,7 @@
       @endif
 
     </form>
-    <br>
+    
+
+
 @endsection

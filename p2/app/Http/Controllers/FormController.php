@@ -20,11 +20,22 @@ class FormController extends Controller
         # Note: if validation fails, it will redirect
         # back to `/` (page from which the form was submitted)
 
-        return view('forms.index')->with(['forms' => [
-            ['title' => 'Hips'],
-            ['title' => 'Waist'],
-            ['title' => 'WTH Ratio Form Data']
-        ]]);
+        # Get the input values (default to null if no values exist)
+        $hips = $request->input('hips', null);
+        $waist = $request->input('waist', null);
+        $gender = $request->input('gender', null);
+
+        $WaistToHip = $waist / $hips;
+
+
+        return view('forms.index')->with([
+            'hips' => $hips,
+            'waist' => $waist,
+            'gender' => $gender,
+            'WaistToHip' => $WaistToHip
+        ]);
+
+
     }
 
     /**
