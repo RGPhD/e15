@@ -30,6 +30,14 @@
 </ul>
 @endif
 
+@if($WaistToHip)
+<ul>
+<li>Learn more about abdominal obesity at <a href="https://www.health.harvard.edu/staying-healthy/abdominal-obesity-and-your-health" target="_blank" title="Click to visit Harvard Health"> Harvard Health</a> or learn more about <a href="https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio" target="_blank" title="Waist to Hip info.">Waist to Hip Ratio Guidelines.</a></li>
+
+<li>Calculate your BMI at <a href="https://jsfiddle.net/RobelynGarcia/0frLk781/show" target="_blank" title="Click to visit the JavaScript BMI Calculator">JavaScript BMI Calculaor</a> or view the <a href="https://scholar.harvard.edu/drrobelyngarcia/bmi" target="_blank" title="Click to visit Adult BMI Categories Chart at Harvard Scholar">Harvard Scholar Adult BMI Categories Chart.</a></li>
+</ul>
+@endif
+
 <h3>Refresh The P2 App - Beyond BMI Page by Clicking the Button Below.</h3>
 
 <div>

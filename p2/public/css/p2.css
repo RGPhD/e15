@@ -23,6 +23,18 @@ legend {
     font-weight: bold;
 }
 
+button {
+    background-color: #CC3300;
+    color: #000099;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 3px solid #000066;
+    padding: 0.45rem;
+    margin: 0.75rem;
+    width: 24rem;
+    border-radius: 0.75em;
+  }
+
 footer {
     color: crimson;
     margin: auto;
