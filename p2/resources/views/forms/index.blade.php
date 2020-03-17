@@ -30,7 +30,7 @@
 </ul>
 @endif
 
-<h3>Calculate Again by refreshing The P2 App - Beyond BMI Page by Clicking the Button Below.</h3>
+<h3>Refresh The P2 App - Beyond BMI Page by Clicking the Button Below.</h3>
 
 <div>
       <button class='refresh'><a class='refresh' title="Calculate Again" href="http://e15p2.robelyngarcia.me">Click to Refresh Page and Process New Data</a></button>

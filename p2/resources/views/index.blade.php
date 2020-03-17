@@ -36,16 +36,16 @@
             <option value="Below 10">Less than 10</option>
             <option value="10" {{ (old('waist') == '10') ? 'selected' : '' }}>10</option>
             <option value="11" {{ (old('waist') == '11') ? 'selected' : '' }}>11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-            <option value="19">19</option>
-            <option value="20">20</option>
-            <option value="21">21</option>
+            <option value="12" {{ (old('waist') == '12') ? 'selected' : '' }}>12</option>
+            <option value="13" {{ (old('waist') == '13') ? 'selected' : '' }}>13</option>
+            <option value="14" {{ (old('waist') == '14') ? 'selected' : '' }}>14</option>
+            <option value="15" {{ (old('waist') == '15') ? 'selected' : '' }}>15</option>
+            <option value="16" {{ (old('waist') == '16') ? 'selected' : '' }}>16</option>
+            <option value="17" {{ (old('waist') == '17') ? 'selected' : '' }}>17</option>
+            <option value="18" {{ (old('waist') == '18') ? 'selected' : '' }}>18</option>
+            <option value="19" {{ (old('waist') == '19') ? 'selected' : '' }}>19</option>
+            <option value="20" {{ (old('waist') == '20') ? 'selected' : '' }}>20</option>
+            <option value="21" {{ (old('waist') == '21') ? 'selected' : '' }}>21</option>
             <option value="22">22</option>
             <option value="23">23</option>
             <option value="24">24</option>
