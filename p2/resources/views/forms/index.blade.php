@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    WTH Form
+    WTH Form Results
 @endsection
 
 @section('content')
