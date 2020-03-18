@@ -21,7 +21,7 @@
         <br>
         <div>
         <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
-          <input type='text' name='hips' id='hips' placeholder='Enter your Hip size in Inches' value='{{ old('hips') }}'>
+          <input type='text' name='hips' id='hips' placeholder='Enter Hip size in Inches' value='{{ old('hips') }}'>
           <!-- Adding valid hips variable as second option for old is optional for p2 -->
         </div>
 
@@ -124,7 +124,7 @@
       @if(count($errors) > 0)
     <ul>
         @foreach ($errors->all() as $error)
-            <li>{{ $error }}</li>
+            <li class='error'>{{ $error }}</li>
         @endforeach
     </ul>
       @endif

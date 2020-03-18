@@ -1,8 +1,4 @@
 #logo {
-    /* 
-    Actual logo width is 725; 
-    displaying half-size so it looks crisp on high-resolution displays 
-    */
     width: 362px;
     margin: auto;
 }
@@ -11,7 +7,7 @@ h1 {
     font-family: Times, serif;
     color: crimson;
     text-align: center;
-    border-bottom: thick solid crimson;
+    border-bottom: thick solid #DC143C;
 }
 
 h2 {
@@ -23,8 +19,14 @@ legend {
     font-weight: bold;
 }
 
+.error{
+    font-weight: bold;
+    font-size: 115%;
+    color: #DC143C;
+  }
+
 button {
-    background-color: #CC3300;
+    background-color: #DC143C;
     color: #000099;
     font-weight: bold;
     font-size: 1rem;
@@ -36,10 +38,10 @@ button {
   }
 
 footer {
-    color: crimson;
+    color: #DC143C;
     margin: auto;
     text-align: center;
     font-size: 110%;
     font-weight: bold;
-    border-top: thick solid crimson;
+    border-top: thick solid #DC143C;
   }

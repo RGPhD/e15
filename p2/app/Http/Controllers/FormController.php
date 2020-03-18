@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class FormController extends Controller
 {
     /**
-     * GET /forms 
+     * Using GET /forms because not saving sensitive data or names
      */
     public function index(Request $request) {
     
@@ -16,7 +16,7 @@ class FormController extends Controller
             'waist' => 'required|digits:2',
             'gender' => 'required'
         ]);
-        # Profressor suggests red styling for errors
+        # Profressor suggests red styling for errors, but not required for p2
         # Note: if validation fails, it will redirect
         # back to `/` (page from which the form was submitted)
 

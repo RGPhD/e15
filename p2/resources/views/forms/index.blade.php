@@ -30,6 +30,7 @@
 </ul>
 @endif
 
+<!-- Solid bullets and additional spacing for at risk range to highlight more than normal range. -->
 @if($WaistToHip)
 <ul>
 <li>Learn more about abdominal obesity at <a href="https://www.health.harvard.edu/staying-healthy/abdominal-obesity-and-your-health" target="_blank" title="Click to visit Harvard Health"> Harvard Health</a> or learn more about <a href="https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio" target="_blank" title="Waist to Hip info.">Waist to Hip Ratio Guidelines.</a></li>
