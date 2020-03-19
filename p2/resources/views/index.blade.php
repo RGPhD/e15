@@ -4,7 +4,7 @@
 <h2>Abdominal Obesity and Your Health</h2>
     Although BMI is the golden standard for measuring obesity, it does not accurately reflect the distribution of fat. Scientific research reveals while no excess fat is good, abdominal fat is the most dangerous to your health. Empirical research also supports the Waist-to-Hip ratio method for evaluating abdominal fat and determining abdominal obesity. Calculate your Waist-to-Hip ratio below.
 
-    <h2>Instructions</h2>
+<h2>Instructions</h2>
     <ul>
       <li>Measure your waist at the narrowest point and your hips at the widest point.</li>
       <li>Enter your Hip Circumference in Inches.</li>
@@ -22,10 +22,10 @@
         @if(count($errors) > 0)
     <ul>
         @foreach ($errors->all() as $error)
-            <li class='error'>{{ $error }}</li>
+          <li class='error'>{{ $error }}</li>
         @endforeach
     </ul>
-      @endif
+        @endif
       
         <div>
           <label for='hips'>Enter your Hip Circumference in Inches:</label>
@@ -89,17 +89,17 @@
             <option value="57" {{ (old('waist') == '57') ? 'selected' : '' }}>57</option>
             <option value="58" {{ (old('waist') == '58') ? 'selected' : '' }}>58</option>
             <option value="59" {{ (old('waist') == '59') ? 'selected' : '' }}>59</option>
-<option value="60" {{ (old('waist') == '60') ? 'selected' : '' }}>60</option>
-<option value="61" {{ (old('waist') == '61') ? 'selected' : '' }}>61</option>
-<option value="62" {{ (old('waist') == '62') ? 'selected' : '' }}>62</option>
-<option value="63" {{ (old('waist') == '63') ? 'selected' : '' }}>63</option>
-<option value="64" {{ (old('waist') == '64') ? 'selected' : '' }}>64</option>
-<option value="65" {{ (old('waist') == '65') ? 'selected' : '' }}>65</option>
-<option value="66" {{ (old('waist') == '66') ? 'selected' : '' }}>66</option>
-<option value="67" {{ (old('waist') == '67') ? 'selected' : '' }}>67</option>
-<option value="68" {{ (old('waist') == '68') ? 'selected' : '' }}>68</option>
-<option value="69" {{ (old('waist') == '69') ? 'selected' : '' }}>69</option>
-<option value="70" {{ (old('waist') == '70') ? 'selected' : '' }}>70</option>
+            <option value="60" {{ (old('waist') == '60') ? 'selected' : '' }}>60</option>
+            <option value="61" {{ (old('waist') == '61') ? 'selected' : '' }}>61</option>
+            <option value="62" {{ (old('waist') == '62') ? 'selected' : '' }}>62</option>
+            <option value="63" {{ (old('waist') == '63') ? 'selected' : '' }}>63</option>
+            <option value="64" {{ (old('waist') == '64') ? 'selected' : '' }}>64</option>
+            <option value="65" {{ (old('waist') == '65') ? 'selected' : '' }}>65</option>
+            <option value="66" {{ (old('waist') == '66') ? 'selected' : '' }}>66</option>
+            <option value="67" {{ (old('waist') == '67') ? 'selected' : '' }}>67</option>
+            <option value="68" {{ (old('waist') == '68') ? 'selected' : '' }}>68</option>
+            <option value="69" {{ (old('waist') == '69') ? 'selected' : '' }}>69</option>
+            <option value="70" {{ (old('waist') == '70') ? 'selected' : '' }}>70</option>
             <option value="Above 70">Above 70</option>
           </select>
         </div>
@@ -124,8 +124,6 @@
         </div>
         
       </fieldset>
-
-     
 
     </form>
     

@@ -4,15 +4,13 @@
 {{ $title }}
 @endsection
 
-@section('head')
-{{-- Page specific CSS includes should be defined here; this .css file does not exist yet, but we can create it --}}
-<link href='/css/forms/show.css' rel='stylesheet'>
-@endsection
-
 @section('content')
-<h1>{{ $title }}</h1>
+<h2>{{ $title }}</h2>
 
 <p>
-    Details about this form will go here...
+    Details about the user WTH Ratio form data will go here… 
 </p>
+   <div>
+      <button class='refresh'><a class='refresh' title="Return to Home" href="http://e15p2.robelyngarcia.me">Click to Return to Home Page</a></button>
+    </div>
 @endsection

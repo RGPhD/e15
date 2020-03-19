@@ -15,7 +15,6 @@
     <header>
     <a href='/'><img src='/images/hes-logo.png' id='logo' alt='Harvard Extension Logo'></a>
         <h1>E-15: P2 App - Beyond BMI</h1>
-
     </header>
 
     <section>
@@ -23,13 +22,13 @@
     </section>
 
     <footer>
-    <br>
+      <br>
       <strong><a href="https://hesweb.dev/e15" target="_blank" title="Click to visit Harvard University Extension School: CSCI E-15 Web Server Frameworks with Laravel/PHP">Harvard University Extension: E-15 Web Server Frameworks with Laravel/PHP &copy; {{ date('Y') }}
         </a></strong>
       <br>
 
     </footer>
-    <br>
+      <br>
 </body>
 
 </html>
