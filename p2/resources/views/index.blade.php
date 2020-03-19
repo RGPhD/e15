@@ -19,11 +19,13 @@
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
         <br>
-        <div>
-        <legend><label for='hips'>Enter your Hip Circumference in Inches Below:</label> </legend>
+        
+        <legend>
+        <div><label for='hips'>Enter your Hip Circumference in Inches:</label> </legend>
           <input type='text' name='hips' id='hips' placeholder='Enter Hip size in Inches' value='{{ old('hips') }}'>
           <!-- Adding valid hips variable as second option for old is optional for p2 -->
         </div>
+        
 
         <br>
 
@@ -51,7 +53,7 @@
             <option value="24" {{ (old('waist') == '24') ? 'selected' : '' }}>24</option>
             <option value="25" {{ (old('waist') == '25') ? 'selected' : '' }}>25</option>
             <option value="26" {{ (old('waist') == '26') ? 'selected' : '' }}>26</option>
-<option value="27" {{ (old('waist') == '27') ? 'selected' : '' }}>27</option>
+            <option value="27" {{ (old('waist') == '27') ? 'selected' : '' }}>27</option>
 <option value="28" {{ (old('waist') == '28') ? 'selected' : '' }}>28</option>
 <option value="29" {{ (old('waist') == '29') ? 'selected' : '' }}>29</option>
 <option value="30" {{ (old('waist') == '30') ? 'selected' : '' }}>30</option>
