@@ -20,8 +20,8 @@
         <legend>ENTER YOUR INFORMATION</legend>
         <br>
         
-        <legend>
-        <div><label for='hips'>Enter your Hip Circumference in Inches:</label> </legend>
+        
+        <div><label for='hips'>Enter your Hip Circumference in Inches:</label>
           <input type='text' name='hips' id='hips' placeholder='Enter Hip size in Inches' value='{{ old('hips') }}'>
           <!-- Adding valid hips variable as second option for old is optional for p2 -->
         </div>
