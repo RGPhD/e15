@@ -19,6 +19,18 @@ legend {
     font-weight: bold;
 }
 
+label {
+    font-weight: bold;
+}
+
+.male {
+    color: #000099;
+}
+
+.female {
+    color: #DC143C;
+}
+
 .error{
     font-weight: bold;
     font-size: 115%;

@@ -19,19 +19,14 @@
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
         <br>
-        
-        
-        <div><label for='hips'>Enter your Hip Circumference in Inches:</label>
+        <div>
+          <label for='hips'>Enter your Hip Circumference in Inches:</label>
           <input type='text' name='hips' id='hips' placeholder='Enter Hip size in Inches' value='{{ old('hips') }}'>
           <!-- Adding valid hips variable as second option for old is optional for p2 -->
         </div>
-        
-
         <br>
-
-        <legend>Select your Waist Circumference Below:</legend>
         <div>
-          <label for="waist"> Select Inches (10-70 inches)</label>
+          <label for="waist"> Select your Waist Circumference (10-70 inches):</label>
 
           <!-- Using old method for every value 10-70; not using it on Less than 10 or over 70 because these are not valid entries for the purpose of this WTH App -->
           <select id="waist" name='waist'>
@@ -54,7 +49,7 @@
             <option value="25" {{ (old('waist') == '25') ? 'selected' : '' }}>25</option>
             <option value="26" {{ (old('waist') == '26') ? 'selected' : '' }}>26</option>
             <option value="27" {{ (old('waist') == '27') ? 'selected' : '' }}>27</option>
-<option value="28" {{ (old('waist') == '28') ? 'selected' : '' }}>28</option>
+            <option value="28" {{ (old('waist') == '28') ? 'selected' : '' }}>28</option>
 <option value="29" {{ (old('waist') == '29') ? 'selected' : '' }}>29</option>
 <option value="30" {{ (old('waist') == '30') ? 'selected' : '' }}>30</option>
 <option value="31" {{ (old('waist') == '31') ? 'selected' : '' }}>31</option>
@@ -101,17 +96,17 @@
           </select>
         </div>
         <br>
-        <legend>Select your Gender Below:</legend>
+        <label>Select your Gender Below:</label>
         <div>
           <input type='radio' value='Male' id='Male' name='gender'  
           {{ (old('gender') == 'Male') ? 'checked' : '' }}>
           
-          <label for='Male'> Male</label>
+          <label for='Male' class='male'> Male</label>
         </div>
         <div>
           <input type='radio' value='Female' id='Female' name='gender'
           {{ (old('gender') == 'Female') ? 'checked' : '' }}>
-          <label for='Female'> Female</label>
+          <label for='Female' class='female'> Female</label>
           <!-- Adding valid gender variable as second option for old is optional for p2 -->
         </div>
 
@@ -119,7 +114,7 @@
           <br>
           <button type='submit' title='Good Luck!'>Click to Calculate</button>
         </div>
-        <br>
+        
       </fieldset>
 
 <!-- Profressor suggests red styling for errors in css -->
