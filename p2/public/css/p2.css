@@ -35,7 +35,7 @@ label {
     font-weight: bold;
     font-size: 115%;
     color: #DC143C;
-  }
+}
 
 button {
     background-color: #DC143C;
@@ -47,7 +47,7 @@ button {
     margin: 0.75rem;
     width: 24rem;
     border-radius: 0.75em;
-  }
+}
 
 footer {
     color: #DC143C;
