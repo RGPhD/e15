@@ -46,11 +46,11 @@
             <option value="19" {{ (old('waist') == '19') ? 'selected' : '' }}>19</option>
             <option value="20" {{ (old('waist') == '20') ? 'selected' : '' }}>20</option>
             <option value="21" {{ (old('waist') == '21') ? 'selected' : '' }}>21</option>
-<option value="22" {{ (old('waist') == '22') ? 'selected' : '' }}>22</option>
-<option value="23" {{ (old('waist') == '23') ? 'selected' : '' }}>23</option>
-<option value="24" {{ (old('waist') == '24') ? 'selected' : '' }}>24</option>
-<option value="25" {{ (old('waist') == '25') ? 'selected' : '' }}>25</option>
-<option value="26" {{ (old('waist') == '26') ? 'selected' : '' }}>26</option>
+            <option value="22" {{ (old('waist') == '22') ? 'selected' : '' }}>22</option>
+            <option value="23" {{ (old('waist') == '23') ? 'selected' : '' }}>23</option>
+            <option value="24" {{ (old('waist') == '24') ? 'selected' : '' }}>24</option>
+            <option value="25" {{ (old('waist') == '25') ? 'selected' : '' }}>25</option>
+            <option value="26" {{ (old('waist') == '26') ? 'selected' : '' }}>26</option>
 <option value="27" {{ (old('waist') == '27') ? 'selected' : '' }}>27</option>
 <option value="28" {{ (old('waist') == '28') ? 'selected' : '' }}>28</option>
 <option value="29" {{ (old('waist') == '29') ? 'selected' : '' }}>29</option>
@@ -132,6 +132,4 @@
     </form>
     
 <br>
-
 @endsection
-<br>
