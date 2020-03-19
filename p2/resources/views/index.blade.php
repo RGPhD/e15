@@ -18,7 +18,15 @@
     <form method='GET' action='/forms'>
       <fieldset>
         <legend>ENTER YOUR INFORMATION</legend>
-        <br>
+        
+        @if(count($errors) > 0)
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li class='error'>{{ $error }}</li>
+        @endforeach
+    </ul>
+      @endif
+      
         <div>
           <label for='hips'>Enter your Hip Circumference in Inches:</label>
           <input type='text' name='hips' id='hips' placeholder='Enter Hip size in Inches' value='{{ old('hips') }}'>
@@ -26,7 +34,7 @@
         </div>
         <br>
         <div>
-          <label for="waist"> Select your Waist Circumference (10-70 inches):</label>
+          <label for="waist"> Select your Waist Circumference (10-70 Inches):</label>
 
           <!-- Using old method for every value 10-70; not using it on Less than 10 or over 70 because these are not valid entries for the purpose of this WTH App -->
           <select id="waist" name='waist'>
@@ -50,37 +58,37 @@
             <option value="26" {{ (old('waist') == '26') ? 'selected' : '' }}>26</option>
             <option value="27" {{ (old('waist') == '27') ? 'selected' : '' }}>27</option>
             <option value="28" {{ (old('waist') == '28') ? 'selected' : '' }}>28</option>
-<option value="29" {{ (old('waist') == '29') ? 'selected' : '' }}>29</option>
-<option value="30" {{ (old('waist') == '30') ? 'selected' : '' }}>30</option>
-<option value="31" {{ (old('waist') == '31') ? 'selected' : '' }}>31</option>
-<option value="32" {{ (old('waist') == '32') ? 'selected' : '' }}>32</option>
-<option value="33" {{ (old('waist') == '33') ? 'selected' : '' }}>33</option>
-<option value="34" {{ (old('waist') == '34') ? 'selected' : '' }}>34</option>
-<option value="35" {{ (old('waist') == '35') ? 'selected' : '' }}>35</option>
-<option value="36" {{ (old('waist') == '36') ? 'selected' : '' }}>36</option>
-<option value="37" {{ (old('waist') == '37') ? 'selected' : '' }}>37</option>
-<option value="38" {{ (old('waist') == '38') ? 'selected' : '' }}>38</option>
-<option value="39" {{ (old('waist') == '39') ? 'selected' : '' }}>39</option>
-<option value="40" {{ (old('waist') == '40') ? 'selected' : '' }}>40</option>
-<option value="41" {{ (old('waist') == '41') ? 'selected' : '' }}>41</option>
-<option value="42" {{ (old('waist') == '42') ? 'selected' : '' }}>42</option>
-<option value="43" {{ (old('waist') == '43') ? 'selected' : '' }}>43</option>
-<option value="44" {{ (old('waist') == '44') ? 'selected' : '' }}>44</option>
-<option value="45" {{ (old('waist') == '45') ? 'selected' : '' }}>45</option>
-<option value="46" {{ (old('waist') == '46') ? 'selected' : '' }}>46</option>
-<option value="47" {{ (old('waist') == '47') ? 'selected' : '' }}>47</option>
-<option value="48" {{ (old('waist') == '48') ? 'selected' : '' }}>48</option>
-<option value="49" {{ (old('waist') == '49') ? 'selected' : '' }}>49</option>
-<option value="50" {{ (old('waist') == '50') ? 'selected' : '' }}>50</option>
-<option value="51" {{ (old('waist') == '51') ? 'selected' : '' }}>51</option>
-<option value="52" {{ (old('waist') == '52') ? 'selected' : '' }}>52</option>
-<option value="53" {{ (old('waist') == '53') ? 'selected' : '' }}>53</option>
-<option value="54" {{ (old('waist') == '54') ? 'selected' : '' }}>54</option>
-<option value="55" {{ (old('waist') == '55') ? 'selected' : '' }}>55</option>
-<option value="56" {{ (old('waist') == '56') ? 'selected' : '' }}>56</option>
-<option value="57" {{ (old('waist') == '57') ? 'selected' : '' }}>57</option>
-<option value="58" {{ (old('waist') == '58') ? 'selected' : '' }}>58</option>
-<option value="59" {{ (old('waist') == '59') ? 'selected' : '' }}>59</option>
+            <option value="29" {{ (old('waist') == '29') ? 'selected' : '' }}>29</option>
+            <option value="30" {{ (old('waist') == '30') ? 'selected' : '' }}>30</option>
+            <option value="31" {{ (old('waist') == '31') ? 'selected' : '' }}>31</option>
+            <option value="32" {{ (old('waist') == '32') ? 'selected' : '' }}>32</option>
+            <option value="33" {{ (old('waist') == '33') ? 'selected' : '' }}>33</option>
+            <option value="34" {{ (old('waist') == '34') ? 'selected' : '' }}>34</option>
+            <option value="35" {{ (old('waist') == '35') ? 'selected' : '' }}>35</option>
+            <option value="36" {{ (old('waist') == '36') ? 'selected' : '' }}>36</option>
+            <option value="37" {{ (old('waist') == '37') ? 'selected' : '' }}>37</option>
+            <option value="38" {{ (old('waist') == '38') ? 'selected' : '' }}>38</option>
+            <option value="39" {{ (old('waist') == '39') ? 'selected' : '' }}>39</option>
+            <option value="40" {{ (old('waist') == '40') ? 'selected' : '' }}>40</option>
+            <option value="41" {{ (old('waist') == '41') ? 'selected' : '' }}>41</option>
+            <option value="42" {{ (old('waist') == '42') ? 'selected' : '' }}>42</option>
+            <option value="43" {{ (old('waist') == '43') ? 'selected' : '' }}>43</option>
+            <option value="44" {{ (old('waist') == '44') ? 'selected' : '' }}>44</option>
+            <option value="45" {{ (old('waist') == '45') ? 'selected' : '' }}>45</option>
+            <option value="46" {{ (old('waist') == '46') ? 'selected' : '' }}>46</option>
+            <option value="47" {{ (old('waist') == '47') ? 'selected' : '' }}>47</option>
+            <option value="48" {{ (old('waist') == '48') ? 'selected' : '' }}>48</option>
+            <option value="49" {{ (old('waist') == '49') ? 'selected' : '' }}>49</option>
+            <option value="50" {{ (old('waist') == '50') ? 'selected' : '' }}>50</option>
+            <option value="51" {{ (old('waist') == '51') ? 'selected' : '' }}>51</option>
+            <option value="52" {{ (old('waist') == '52') ? 'selected' : '' }}>52</option>
+            <option value="53" {{ (old('waist') == '53') ? 'selected' : '' }}>53</option>
+            <option value="54" {{ (old('waist') == '54') ? 'selected' : '' }}>54</option>
+            <option value="55" {{ (old('waist') == '55') ? 'selected' : '' }}>55</option>
+            <option value="56" {{ (old('waist') == '56') ? 'selected' : '' }}>56</option>
+            <option value="57" {{ (old('waist') == '57') ? 'selected' : '' }}>57</option>
+            <option value="58" {{ (old('waist') == '58') ? 'selected' : '' }}>58</option>
+            <option value="59" {{ (old('waist') == '59') ? 'selected' : '' }}>59</option>
 <option value="60" {{ (old('waist') == '60') ? 'selected' : '' }}>60</option>
 <option value="61" {{ (old('waist') == '61') ? 'selected' : '' }}>61</option>
 <option value="62" {{ (old('waist') == '62') ? 'selected' : '' }}>62</option>
@@ -117,14 +125,7 @@
         
       </fieldset>
 
-<!-- Profressor suggests red styling for errors in css -->
-      @if(count($errors) > 0)
-    <ul>
-        @foreach ($errors->all() as $error)
-            <li class='error'>{{ $error }}</li>
-        @endforeach
-    </ul>
-      @endif
+     
 
     </form>
     
