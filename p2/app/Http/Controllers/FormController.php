@@ -25,8 +25,7 @@ class FormController extends Controller
         $waist = $request->input('waist', null);
         $gender = $request->input('gender', null);
 
-        $WaistToHip = $waist / $hips;
-
+        $WaistToHip = round($waist / $hips, 2);
 
         return view('forms.index')->with([
             'hips' => $hips,
