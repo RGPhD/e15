@@ -1,10 +1,8 @@
-# Independent Study Project for Harvard EXT CSCI E-15: 2020
+# CSS Layout Methodologies for Responsive eLearning Design
++ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
 + By: *Robelyn Garcia*
 
 <img src="images/hes-logo.png">
-
-# CSS Layout Methodologies for Responsive eLearning Design
-+ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
 
 # Floats, Flexbox and CSS Grid
 + Introduction
