@@ -1,10 +1,9 @@
 # CSS Layout Methodologies for Responsive eLearning Design
-+ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
 + By: *Robelyn Garcia*
 
 <img src="images/hes-logo.png">
 
-# Floats, Flexbox and CSS Grid
+# Floats, Flexbox and CSS Grid for Online Courses
 + Introduction
 
 ## Floats
@@ -24,6 +23,7 @@
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
 + Free CSS Bootcamp: <https://frontendmasters.com/bootcamp/introduction-css>
++ Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
 
 ## References
 + Coyier, C. (2019). All About Floats.  CSS Tricks.  Retrieved from 
