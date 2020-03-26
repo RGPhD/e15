@@ -15,7 +15,7 @@
 
 # CSS Grid
 
-# Utilization and Combination of Appropriate CSS Layout Methodologies
+## Utilization and Combination of Appropriate CSS Layout Methodologies
 
 # The Best Methodology
 
