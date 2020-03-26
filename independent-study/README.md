@@ -6,20 +6,20 @@
 # CSS Layout Methodologies for Responsive eLearning Design
 + Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
 
-# Floats, Flexbox and CSS Grid for designing Online Courses
+# Floats, Flexbox and CSS Grid
 + Introduction
 
-# Floats
+## Floats
 
-# Flexbox
+## Flexbox
 
-# CSS Grid
+## CSS Grid
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 
-# The Best Methodology
+## The Best Methodology
 
-# Practice
+## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>
 
 # Resources
