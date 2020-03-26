@@ -22,12 +22,12 @@
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>
 
-# Resources
+## Resources
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
 + Free CSS Bootcamp: <https://frontendmasters.com/bootcamp/introduction-css>
 
-# References
+## References
 + Coyier, C. (2019). All About Floats.  CSS Tricks.  Retrieved from 
     <https://css-tricks.com/all-about-floats>
 + Kramer, J. (2020).  CSS Grid and Flexbox in Responsive Web Design.  Retrieved from 
