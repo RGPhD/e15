@@ -9,7 +9,7 @@
 
 # Floats, Flexbox and CSS Grid for Online Courses
 + I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must of course understand both the new border box model and the old content box model.
-+ 
++ When writing and reading float, Flexbox and CSS Grid code, it is imperative to remember that every element in your web browser or eLearning course webpage has a box surrounding it.
 + Insert Image/Diagram Example Here ...
 + Separation of Concerns for CSS methodologies ...
 
@@ -35,7 +35,7 @@
 + When a web page combines both a one-dimensional and a two-dimensional responsive layout then combining these two methodologies is suggested.  Flexbox and CSS Grid integrate quite well together; online course designers and web designers are already taking advantage of the strengths of combining these methodologies in responsive design and responsive eLearning design.
 
 ## The Best Methodology
-+ 
++ CSS Grid ...
 + 
 + 
 + 
