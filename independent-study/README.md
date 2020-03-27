@@ -5,10 +5,10 @@
 
 + As Harvard University and a myriad of other brick-and-mortar universities move classes online amid the coronavirus pandemic, eLearning is at the forefront of post-secondary education. 
 
-+ During the past year at Harvard University Extension School, I have encountered many Cascading Style Sheets (CSS) methodologies for laying out web pages and engaging eLearning course sites, including floats, tables, positioning, inline-block, CSS columns, Flexbox, and CSS Grid.  The purpose of this set of notes is to select three of these CSS methodologies and then compare and contrast each of these CSS methods.  I will also present an examination, analysis and reflection of why one of the methodologies is the best selection for responsive design and responsive eLearning design.
++ During the past year at Harvard University Extension School, I have encountered many Cascading Style Sheets (CSS) methodologies for laying out web pages and online eLearning course sites, including floats, tables, positioning, inline-block, CSS columns, Flexbox, and CSS Grid.  The purpose of this set of notes is to select three of these CSS methodologies and then compare and contrast each of these CSS methods.  I will also present an examination, analysis and reflection of why one of the methodologies is the best selection for responsive design and responsive eLearning design.
 
 # Floats, Flexbox and CSS Grid for Online Courses
-+ Introduction
++ I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must understand both the new border box model and the old content box model.
 
 ## Floats
 
