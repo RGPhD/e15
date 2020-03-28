@@ -43,7 +43,7 @@
 + 
 
 ## Example
-+ Insert working example via screenshot image or embedded code...
++ Insert working example via screenshot image and or embedded code ...
 
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>
@@ -71,3 +71,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
     <https://elearningindustry.com/responsive-elearning-design-higher-engagement-learning-experience-7-examples>
 + Williams, O. (2018).  The Slow Death of Internet Explorer and the Future of 
     Progressive  Enhancement.  Retrieved from <https://alistapart.com/article/the-slow-death-of-internet-explorer-and-future-of-progressive-enhancement>
++ Insert more References as needed ...
+
+### Learning to code is much like learning to play a sport! 
+__*"To really get good, it takes an understanding of the fundamentals, lots and lots of hands-on practice, and the ability to learn from others"*__ Harvard Digital Media Professor [Larry Bouthillier](https://www.extension.harvard.edu/faculty-directory/laurence-p-bouthillier).
