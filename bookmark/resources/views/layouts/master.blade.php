@@ -32,6 +32,7 @@
 
     <footer>
         &copy; Bookmark
+        {{ config('mail.supportEmail') }}
     </footer>
 
 </body>
