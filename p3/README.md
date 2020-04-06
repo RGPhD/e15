@@ -3,7 +3,7 @@
 + Production URL: <http://e15p3.robelyngarcia.me>
 
 ## Feature summary
-*Outline a summary of features that your application has. Below are from a project similar to Bookmark, with unique features. Delete this and replace with your own feature summary*
+*Outline a summary of features that my application has. Below are from a project similar to Bookmark, with unique features. Delete this and replace with my own feature summary*
 
 + Visitors can register/log in
 + Users can create/add/update/delete COVID-19 websites in their collection (title, release date, writer, summary, category)
