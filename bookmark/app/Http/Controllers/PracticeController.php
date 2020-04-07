@@ -11,6 +11,121 @@ class PracticeController extends Controller
     /**
      * Demonstrates deleting data
      */
+
+    public function practice17()
+    {
+        $results = Book::orderBy('created_at', 'desc')->take(2)->get();
+        dump($results);
+
+
+    }
+
+    public function practice16()
+    {
+        $books = Book::where('author', '=', 'J.K. Rowling')->get();
+
+        if ($books->isEmpty()) {
+            dump('No matches found');
+        } else {
+            dump($books->toArray());
+
+            foreach ($books as $book) {
+                # Change author
+         $book->author = 'JK Rowling';
+
+         # Save the changes
+         $book->save();
+
+    dump('Update complete; check the database to confirm the update worked.');
+       }
+    } 
+}
+
+    public function practice15()
+    {
+        //$book = new Book();
+        //$books = Book::where('title', 'LIKE', '%Harry Potter%')->orWhere
+        //('published_year', '>=', 1998)->get();
+
+        $books = Book::where('author', 'LIKE', '%Weir%')->get();
+
+        if ($books->isEmpty()) {
+            dump('No matches found');
+        } else {
+            dump($books->toArray());
+
+            foreach ($books as $book) {
+                $book->delete();
+                dump('Deletion complete; check the database to see if it worked...');
+            }
+            
+        }
+    }
+
+    public function practice14()
+    {
+        $book = Book::where('author', 'LIKE', '%Rowling%')->first();
+
+        if (!$book) {
+            dump('Did not delete- Book not found.');
+        } else {
+            $book->delete();
+            dump('Deletion complete; check the database to see if it worked...');
+        }                  
+
+    }
+
+    public function practice13()
+    {
+        $book = Book::where('author', '=', 'J.K. Rowling')->first();
+
+if (!$book) {
+    dump("Book not found, can not update.");
+} else {
+    # Change author
+    $book->author = 'JK Rowling';
+
+    # Save the changes
+    $book->save();
+
+    dump('Update complete; check the database to confirm the update worked.');
+}
+    }
+
+    public function practice12()
+    {
+        $results = Book::orderBy('published_year', 'desc')->get();
+        dump($results);
+    }
+
+    public function practice11()
+    {
+        $results = Book::orderByDesc('published_year')->get();
+    dump($results);
+    }
+
+    public function practice10()
+    {
+        $results = Book::orderBy('title')->get();
+    dump($results);
+    }
+
+    public function practice9()
+    {
+    $books = Book::where('author', 'LIKE', '%Rowling%')->get();
+
+    foreach($books as $book) {
+    
+        dump($book->title);
+    
+    }
+}    
+    public function practice8()
+    {
+        $result = Book::where('title', 'LIKE', '%Harry Potter%')->first();
+    dump($result);
+    }
+
     public function practice7()
     {
         # First get a book to delete
