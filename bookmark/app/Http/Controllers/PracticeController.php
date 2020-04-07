@@ -12,6 +12,28 @@ class PracticeController extends Controller
      * Demonstrates deleting data
      */
 
+    public function practice20()
+    {     
+        $result = Book::where('author', 'LIKE', '%Rowling%')->delete();
+        dump($result);
+        /**
+     * Check deleted data in table; SUCCESS
+     */
+    }
+
+    public function practice19()
+    {     
+    $results = Book::orderBy('created_at', 'desc')->limit(2)->get();
+    dump($results);
+    }
+
+    public function practice18()
+    {
+        $book = Book::where('author', '=', 'Dr. Seuss')->get();
+        $book->delete();
+        dump('Book deleted.');
+    }
+
     public function practice17()
     {
         $results = Book::orderBy('created_at', 'desc')->take(2)->get();
