@@ -13,7 +13,7 @@ class CreateWebsitesTable extends Migration
      */
     public function up()
     {
-        Schema::create('books', function (Blueprint $table) {
+        Schema::create('websites', function (Blueprint $table) {
     
             # Create a Primary, Auto-Incrementing column named `id`
             $table->bigIncrements('id');
