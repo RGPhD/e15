@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     ];
 
     /**
-     * Define the application's command schedule.
+     * Define p3 application's command schedule.
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
@@ -28,7 +28,7 @@ class Kernel extends ConsoleKernel
     }
 
     /**
-     * Register the commands for the application.
+     * Register the commands for p3 application.
      *
      * @return void
      */
