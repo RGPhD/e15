@@ -8,7 +8,7 @@ Route::any('/practice/{n?}', 'PracticeController@index');
 
 # Example route used to demonstrate error pages
 Route::get('/example', function () {
-    //dump(config('mail.supportEmail'));
+    dump(config('mail.supportEmail'));
 
     // $foo = [1,2,3];
 
@@ -22,7 +22,7 @@ Route::get('/example', function () {
 
     // ddd(storage_path('temp'));
 
-    return view('abc');
+    //return view('abc');
 });
 
 

@@ -12,6 +12,21 @@ class PracticeController extends Controller
      * Demonstrates deleting data
      */
 
+    public function practice22()
+    { 
+    $books = Book::all();
+    echo $books;
+    }
+
+    public function practice21()
+    {     
+        $books = Book::orderBy('id', 'desc')->get(); $book = $books->first();
+        
+        dump('how many queries');
+        dump($book);
+        dump($books);
+    }
+
     public function practice20()
     {     
         $result = Book::where('author', 'LIKE', '%Rowling%')->delete();
@@ -256,7 +271,8 @@ if (!$book) {
      */
     public function practice1()
     {
-        dump('This is the first example.');
+        $books = Book::all();
+        dump($books->toArray());
     }
 
     /**

@@ -12,12 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return "My P3 APP";
+Route::get('/', 'PageController@welcome');
+//Route::get('/', function () {
+    //return "My P3 APP";
     // return view('welcome');
     // change this to  p3 view
-});
+//});
 
 Route::get('/debug', function () {
 
