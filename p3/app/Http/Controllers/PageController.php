@@ -10,5 +10,11 @@ class PageController extends Controller
     {
         return view('pages.welcome');
     }
+
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
 }
 # work on this code for p3

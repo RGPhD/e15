@@ -1,3 +1,24 @@
 #image {
     width: 315px;
+    margin: auto;
 }
+
+h1 {
+    color: crimson;
+    text-align: center;
+    border-bottom: thick solid #DC143C;
+}
+
+h2 {
+    color: crimson;
+    text-align: center;
+}
+
+footer {
+    color: #DC143C;
+    margin: auto;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    border-top: thick solid #DC143C;
+  }

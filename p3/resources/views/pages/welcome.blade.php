@@ -6,10 +6,11 @@
 
 @section('content')
 <p>
-    Welcome to Coronavirus Resources&mdash; an online website depository that let’s you lookup, add, view and review Coronavirus Health and or Financial related websites.
+    Welcome to Coronavirus Resources, an online website depository that let’s you lookup, add, view and review Coronavirus Health and or Financial related websites.
 </p>
 
-<h2>List a category of websites (Health or Financial) or view them all!</h2>
+<h2>Select category of websites (Health or Financial) or view them all!</h2>
+<h4>Selection Form Here</h4>
 
 
 @endsection

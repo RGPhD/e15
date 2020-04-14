@@ -19,6 +19,8 @@ Route::get('/', 'PageController@welcome');
     // change this to  p3 view
 //});
 
+Route::get('/contact', 'PageController@contact');
+
 Route::get('/debug', function () {
 
     $debug = [

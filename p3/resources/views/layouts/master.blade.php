@@ -31,8 +31,9 @@
         @yield('content')
     </section>
 
+    <br>
     <footer>
-        &copy; Coronavirus Resources
+        &copy;Coronavirus Website Resources
         
     </footer>
 
