@@ -19,7 +19,12 @@ Route::get('/', 'PageController@welcome');
     // change this to  p3 view
 //});
 
+
 Route::get('/contact', 'PageController@contact');
+
+Route::get('/websites', function () {
+    return 'Coronavirus Websites';
+}); 
 
 Route::get('/debug', function () {
 

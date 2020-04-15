@@ -16,5 +16,6 @@ class PageController extends Controller
     {
         return view('pages.contact');
     }
+    //not showing up as a link on welcome page
 }
 # work on this code for p3
