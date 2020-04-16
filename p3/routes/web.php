@@ -19,12 +19,23 @@ Route::get('/', 'PageController@welcome');
     // change this to  p3 view
 //});
 
+//Route::get('/websites/{name?}', function($name) {
+//return 'View the name of the website: ' .$name;
+//});
+# Query the database for a website
+
+# Return a view to show the website
+# Include website data
+
 
 Route::get('/contact', 'PageController@contact');
 
-Route::get('/websites', function () {
-    return 'Coronavirus Websites';
-}); 
+//Route::get('/websites', function () {
+  //  return 'Coronavirus Websites';
+//});
+
+// # Show all websites
+Route::get('/websites', 'WebsiteController@index');
 
 Route::get('/debug', function () {
 
