@@ -27,15 +27,10 @@ Route::get('/', 'PageController@welcome');
 # Return a view to show the website
 # Include website data
 
-
-Route::get('/contact', 'PageController@contact');
-
-//Route::get('/websites', function () {
-  //  return 'Coronavirus Websites';
-//});
-
 // # Show all websites
 Route::get('/websites', 'WebsiteController@index');
+Route::get('/review', 'WebsiteController@review');
+Route::get('/contact', 'PageController@contact');
 
 Route::get('/websites/{name?}', 'WebsiteController@show');
 
@@ -65,4 +60,5 @@ Route::get('/debug', function () {
     dump($debug);
 });
 
-Route::get('/category/{category}', 'WebsiteController@category');
+//Route::get('/category/{category}', 
+//'WebsiteController@category');

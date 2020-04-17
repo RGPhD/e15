@@ -26,7 +26,7 @@ class PageController extends Controller
     }
 
     /**
-     * GET /support
+     * GET /review website, build review website form
      */
     public function support()
     {
