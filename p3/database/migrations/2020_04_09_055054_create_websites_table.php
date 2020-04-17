@@ -27,7 +27,9 @@ class CreateWebsitesTable extends Migration
             $table->string('category');
             $table->string('slug');
             $table->string('organization');
-            $table->string('website_image')->nullable(); # Here we use a column modifier to specify this column can be left empty (null)
+            $table->string('website_image')->nullable();
+            # Here I used a column modifier to specify this column can be left empty (null)
+            # I also used website_image instead of just image, because I use image in css for different views (Put this in Instructor notes)
             $table->text('summary');
         });
     }

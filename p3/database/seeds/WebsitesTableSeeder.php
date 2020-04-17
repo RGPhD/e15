@@ -24,6 +24,17 @@ class WebsitesTableSeeder extends Seeder
     $website->summary = 'A collection of COVID-19 (Coronavirus Disease) content from Health Affairs journal articles and additional resources provides timely commentary, expert analysis, and policy proposals.';
     $website->save();
 
+    $website = new Website();
+    $website->name = 'CDC COVID-19';
+    $website->website_url = 'https://www.cdc.gov/coronavirus/2019-ncov/index.html';
+    $website->category = 'Health';
+    $website->slug = 'cdc-coronavirus';
+    $website->organization = 'CDC';
+    $website->website_image = 'https://www.cdc.gov/homepage/images/cdc-in-action/COVID-19-Response-647x381px.jpg';
+    $website->summary = "The Centers for Disease Control and Prevention's COVID-19 UPDATES.";
+    $website->save();
+
+      # enter more websites
       # Or, pull in the data from a websites.json file to add a bunch of websites
     }
 }

@@ -23,6 +23,7 @@
                 <li><a href='/websites'>All Websites</a></li>
                 <li><a href='/review'></a>Review Webites</li>
                 <li><a href='/contact'></a>Contact</li>
+                <li><a href='/debug'></a>Debug Route</li>
             <!--'/contact' not showing up as a link on welcome page-->
             </ul>
         </nav>
