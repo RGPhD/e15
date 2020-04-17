@@ -37,6 +37,8 @@ Route::get('/contact', 'PageController@contact');
 // # Show all websites
 Route::get('/websites', 'WebsiteController@index');
 
+Route::get('/websites/{name?}', 'WebsiteController@show');
+
 Route::get('/debug', function () {
 
     $debug = [
@@ -62,3 +64,5 @@ Route::get('/debug', function () {
 
     dump($debug);
 });
+
+Route::get('/category/{category}', 'WebsiteController@category');

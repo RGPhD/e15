@@ -26,5 +26,24 @@ public function index()
         'websites' => $websites,
         //'newBooks' => $newBooks
     ]);
+  
     }
-}
+
+    public function show($name = null)
+    {
+     return 'You want to view the details for the website:  '.$name;
+    }
+
+    /**
+     * GET /filter/{$category}/{subcategory?}
+     * Example demonstrating multiple parameters
+     * Not a feature we're actually building, so commenting out.  I want to create category feature, but not subcategory for my p3 unique feature.
+     **/
+    /*
+    public function category($category)
+    {
+        $output = 'Here are all the books under the category '.$category;
+        }
+    **/
+        
+    }
