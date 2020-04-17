@@ -10,7 +10,12 @@
 </p>
 
 <h2>Select category of websites (Health or Financial) or view them all!</h2>
-<h4>Selection Form Here</h4>
+<h4>Selection Form Below</h4>
+<ul>
+    <li><a href='/websites'>Select All Cornovirus Websites</a></li>
+    <li><a href='/websites/health-related'>Select Health Related Webites</a></li>
+    <li><a href='/websites/financial-related'>Select Financial Related Webites</a></li>
+</ul>
 
 
 @endsection
