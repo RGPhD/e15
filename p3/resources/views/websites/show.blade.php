@@ -7,7 +7,7 @@
 @section('content')
 
 @if(!$website) 
-    Website not found. <a href='/websites'>Check out the other websites in our library...</a>
+    Website not found. <a href='/websites'>Check out the other websites in our database...</a>
 @else
 
 <h2>Website Name: {{ $website->name }}</h2>
