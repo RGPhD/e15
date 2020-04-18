@@ -3,36 +3,27 @@
 use Illuminate\Support\Facades\Route;
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
+Web Routes for your application. 
+routes are loaded by the RouteServiceProvider within a group which contains the "web" middleware group.
 */
+
 Route::get('/', 'PageController@welcome');
 //Route::get('/', function () {
     //return "My P3 APP";
     // return view('welcome');
-    // change this to  p3 view
 //});
 
 //Route::get('/websites/{name?}', function($name) {
 //return 'View the name of the website: ' .$name;
 //});
 # Query the database for a website
-
-# Return a view to show the website
-# Include website data
+# Return a view to show each website include website data
 
 // # Show all websites
 Route::get('/websites', 'WebsiteController@index');
 Route::get('/review', 'WebsiteController@review');
 Route::get('/contact', 'PageController@contact');
-
-Route::get('/websites/{name?}', 'WebsiteController@show');
+Route::get('/websites/{category?}', 'WebsiteController@show');
 
 Route::get('/debug', function () {
 
