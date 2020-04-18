@@ -46,9 +46,31 @@ public function index()
     
     }
 
-    public function show($category = null)
+    public function show($slug)
     {
-     return 'You want to view the details for the websites in the:  '.$category;
+        $website = Website::where('slug', '=', $slug)->first();
+
+        return view('websites.show')->with([
+            'website' => $website,
+            'slug' => $slug,
+        ]);
+    }
+
+    
+    public function category()
+    {
+        $categories = Website::orderBy('category')->get();
+
+        # Query database for new websites
+        //$newWebites = Website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
+    
+        # Or, filter out the new books from the existing $books Collection
+        //$newBooks = $books->sortByDesc('created_at')->take(3);
+        
+        return view('websites.category')->with([
+            'categories' => $categories,
+            //'newBooks' => $newBooks
+        ]);
     }
 
     /**

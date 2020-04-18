@@ -13,9 +13,7 @@ Route::get('/', 'PageController@welcome');
     // return view('welcome');
 //});
 
-//Route::get('/websites/{name?}', function($name) {
-//return 'View the name of the website: ' .$name;
-//});
+
 # Query the database for a website
 # Return a view to show each website include website data
 
@@ -23,7 +21,13 @@ Route::get('/', 'PageController@welcome');
 Route::get('/websites', 'WebsiteController@index');
 Route::get('/review', 'WebsiteController@review');
 Route::get('/contact', 'PageController@contact');
-Route::get('/websites/{category?}', 'WebsiteController@show');
+Route::get('/websites/category', 'WebsiteController@category');
+
+//Route::get('/websites/{name?}', function($name) {
+ //   return 'View the name of the website: ' .$name;
+  //  });
+
+Route::get('/websites/{name}', 'WebsiteController@show');
 
 Route::get('/debug', function () {
 
