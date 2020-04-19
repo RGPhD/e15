@@ -34,6 +34,27 @@ class WebsitesTableSeeder extends Seeder
     $website->summary = "The Centers for Disease Control and Prevention's COVID-19 UPDATES.";
     $website->save();
 
+    $website = new Website();
+    $website->name = 'Protecting your Finances during the Coronavirus Pandemic';
+    $website->website_url = 'https://www.consumerfinance.gov/coronavirus';
+    $website->category = 'Financial';
+    $website->slug = 'consumer-finance';
+    $website->organization = 'Consumer Financial Protection Bureau';
+    $website->website_image = 'https://www.consumerfinance.gov/static/img/logo_237x50.c7c2ba6c929f.png';
+    $website->summary = 'An official website of the United States government committed to providing consumers with up-to-date information and resources to protect and manage their finances during this difficult time as the coronavirus situation evolves.';
+    $website->save();
+
+    $website = new Website();
+    $website->name = 'Coronavirus Tax Relief and Economic Impact Payments';
+    $website->website_url = 'https://www.irs.gov/coronavirus-tax-relief-and-economic-impact-payments';
+    $website->category = 'Financial';
+    $website->slug = 'coronavirus-tax-relief';
+    $website->organization = 'IRS';
+    $website->website_image = 'https://www.irs.gov/themes/custom/pup_base/images/irs_horiz-01.svg';
+    $website->summary = 'An official website of the United States government explaining IRS tax help for taxpayers, businesses, tax-exempt organizations and others – including health plans – affected by coronavirus (COVID-19).';
+    $website->save();
+
+
       # enter more websites
       # Or, pull in the data from a websites.json file to add a bunch of websites
     }
