@@ -56,21 +56,22 @@ public function index()
         ]);
     }
 
-    
+
     public function category()
     {
-        $categories = Website::orderBy('category')->get();
+        $websites = Website::orderBy('category')->get();
 
-        # Query database for new websites
-        //$newWebites = Website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
+    # Query database for new websites
+    //$newBooks = Book::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
+
+    # Or, filter out the new books from the existing $books Collection
+    //$newBooks = $books->sortByDesc('created_at')->take(3);
     
-        # Or, filter out the new books from the existing $books Collection
-        //$newBooks = $books->sortByDesc('created_at')->take(3);
-        
-        return view('websites.category')->with([
-            'categories' => $categories,
-            //'newBooks' => $newBooks
-        ]);
+    return view('websites.category')->with([
+        'websites' => $websites,
+        //'newWebsites' => $newWebsites
+    ]);
+    
     }
 
     /**

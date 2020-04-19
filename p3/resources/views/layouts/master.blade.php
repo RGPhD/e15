@@ -23,7 +23,7 @@
                 <li><a href='/websites'>All Websites</a></li>
                 <li><a href='/review'>Review Websites</a></li>
                 <li><a href='/contact'>Contact</a></li>
-            <!--'/contact' not showing up as a link on welcome page-->
+            <!-- Notes to myself: add review view -->
             </ul>
         </nav>
     </header>
