@@ -22,6 +22,8 @@
                 <li><a href='/books'>All Books</a></li>
                 <li><a href='/list'>Your list</a></li>
                 <li><a href='/support'>Support</a></li>
+                <li><a href='/practice'>Practice</a></li>
+                <li><a href='/books'>Add a Book</a></li>
             </ul>
         </nav>
     </header>

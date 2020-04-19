@@ -21,7 +21,7 @@
             <ul>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/websites'>All Websites</a></li>
-                <li><a href='/review'>Review Webites</a></li>
+                <li><a href='/review'>Review Websites</a></li>
                 <li><a href='/contact'>Contact</a></li>
             <!--'/contact' not showing up as a link on welcome page-->
             </ul>
