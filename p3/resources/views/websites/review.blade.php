@@ -5,7 +5,7 @@
 @endsection
 
 @section('head')
-    <link href='/css/websites/index.css' rel='stylesheet'>
+    <link href='/css/websites/websites.css' rel='stylesheet'>
 @endsection
 
 @section('content')

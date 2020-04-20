@@ -14,6 +14,26 @@ class WebsitesTableSeeder extends Seeder
     {
         // add my rows data
         # Add a individual website
+        $website = new Website();
+        $website->name = 'World Health Organization Coronavirus';
+        $website->website_url = 'https://www.who.int/health-topics/coronavirus';
+        $website->category = 'Health';
+        $website->slug = 'world-health-organization';
+        $website->organization = 'WHO';
+        $website->website_image = 'https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg';
+        $website->summary = "The World Health Organization’s official website covering all health related information on the Coronavirus disease (COVID-19) outbreak.  The site includes up to date coverage of the Overview, Prevention, and Symptoms of COVID-19.";
+        $website->save();
+    
+        $website = new Website();
+        $website->name = 'Harvard Health Publishing Coronavirus Resource Center';
+        $website->website_url = 'https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center';
+        $website->category = 'Health';
+        $website->slug = 'harvard-health';
+        $website->organization = 'Harvard Medical School: Harvard Health Publishing';
+        $website->website_image = 'https://www.health.harvard.edu/images/logo-harvard_health-full-v2-@2x.png';
+        $website->summary = "Harvard Medical School: Harvard Health Publishing’s answers to common questions all of us are asking about the coronavirus. New questions and updated answers with reliable information featuring experts discussing coronavirus and COVID-19.";
+        $website->save();
+
     $website = new Website();
     $website->name = 'Health Affairs COVID-19';
     $website->website_url = 'https://www.healthaffairs.org/covid-19-coronavirus-disease';
@@ -53,7 +73,6 @@ class WebsitesTableSeeder extends Seeder
     $website->website_image = 'https://www.irs.gov/themes/custom/pup_base/images/irs_horiz-01.svg';
     $website->summary = 'An official website of the United States government explaining IRS tax help for taxpayers, businesses, tax-exempt organizations and others – including health plans – affected by coronavirus (COVID-19).';
     $website->save();
-
 
       # enter more websites
       # Or, pull in the data from a websites.json file to add a bunch of websites

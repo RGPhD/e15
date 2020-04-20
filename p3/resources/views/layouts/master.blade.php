@@ -16,7 +16,6 @@
     <header>
         <h1>Coronavirus Website Resources</h1>
         <a href='/'><img src='/images/free.cdc.covid19.image.tif' id='image' alt='CDC Covid-19 Image'></a>
-
         <nav>
             <ul>
                 <li><a href='/'>Home</a></li>
@@ -34,7 +33,7 @@
 
     <br>
     <footer>
-        &copy;Coronavirus Website Resources
+        &copy;Coronavirus Website Resources 2020
         
     </footer>
 

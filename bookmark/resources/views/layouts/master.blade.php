@@ -25,6 +25,7 @@
                 <li><a href='/practice'>Practice</a></li>
                 <li><a href='/books'>Add a Book</a></li>
                 <li><a href='/login'>Login</a></li>
+                <li><a href='/debug'>Debug</a></li>
             </ul>
         </nav>
     </header>
