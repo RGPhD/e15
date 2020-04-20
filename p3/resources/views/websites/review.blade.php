@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <h2>Review Websites</h2>
+    <h2>Review Our Recommended Websites</h2>
     <h4>Select the website you wish to review below!</h4>
     @if(count($websites) == 0) 
         No websites have been added yet...

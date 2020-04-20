@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <h2>All Websites</h2>
+    <h2>All of Our Recommended Websites</h2>
     @if(count($websites) == 0) 
         No websites have been added yet...
     @else

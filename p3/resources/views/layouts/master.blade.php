@@ -2,7 +2,7 @@
 <html lang='en'>
 
 <head>
-    <title>@yield('title', 'Coronavirus Website Resources')</title>
+    <title>@yield('title', 'Coronavirus Websites')</title>
     <meta charset='utf-8'>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,14 +14,14 @@
 <body>
 
     <header>
-        <h1>Coronavirus Website Resources</h1>
+        <h1>Coronavirus Websites</h1>
         <a href='/'><img src='/images/free.cdc.covid19.image.tif' id='image' alt='CDC Covid-19 Image'></a>
         <nav>
             <ul>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/websites'>All Websites</a></li>
                 <li><a href='/review'>Review Websites</a></li>
-                <li><a href='/contact'>Contact</a></li>
+                <li><a href='/contact'>Contact Us</a></li>
             <!-- Notes to myself: add review view -->
             </ul>
         </nav>
@@ -33,7 +33,7 @@
 
     <br>
     <footer>
-        &copy;Coronavirus Website Resources 2020
+        &copy;Coronavirus Websites 2020
         
     </footer>
 
