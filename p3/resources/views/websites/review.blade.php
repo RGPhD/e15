@@ -1,28 +1,24 @@
+{{-- /resources/views/websites/review.blade.php --}}
 @extends('layouts.master')
 
 @section('title')
-    Review Websites
-@endsection
-
-@section('head')
-    <link href='/css/websites/websites.css' rel='stylesheet'>
+Review - {{ $website->name }}
 @endsection
 
 @section('content')
 
-    <h2>Review Our Recommended Websites</h2>
-    <h4>Select the website you wish to review below!</h4>
-    @if(count($websites) == 0) 
-        No websites have been added yet...
-    @else
-    <div id='websites'>
-        @foreach($websites as $website)
-        <a class='websites' href='/websites/{{ $website->slug }}'>
-            <h3>{{ $website->name }}</h3>
-            <img class='image' src='{{ $website->website_image }}'></a>
-        </a>
-        @endforeach
-    </div>
-    @endif
+    <h2>Review This Website</h2>
+    <h3>{{ $website->name }}</h3>
+    <p>Visit Website: <a href='{{ $website->website_url }}'>{{ $website->website_url }}</a></p>
 
+    <form method='POST' id='review'>
+
+        <div class='form-group'>
+            <label for='review'>Review of Website</label>
+            <textarea name='review' id='review' class='form-control' placeholder='Enter Your Website Review'></textarea>
+        </div>
+
+        <button type='submit' class='btn btn-primary'>Submit Website Review</button>
+    </form>
+    
 @endsection

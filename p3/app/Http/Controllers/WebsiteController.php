@@ -17,34 +17,78 @@ public function index()
     $websites = Website::orderBy('name')->get();
 
     # Query database for new websites
-    //$newBooks = Book::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
+    //$newwebsite$websites = website$website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
 
-    # Or, filter out the new books from the existing $books Collection
-    //$newBooks = $books->sortByDesc('created_at')->take(3);
+    # Or, filter out the new website$websites from the existing $websites Collection
+    //$newwebsite$websites = $websites->sortByDesc('created_at')->take(3);
     
     return view('websites.index')->with([
         'websites' => $websites,
         //'newWebsites' => $newWebsites
     ]);
   
-    }
+ }
 
-    public function review()
-    {
-        $websites = Website::orderBy('name')->get();
+    //{
+    //    $websites = Website::orderBy('name')->get();
 
     # Query database for new websites
     //$newWebites = Website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
 
-    # Or, filter out the new books from the existing $books Collection
-    //$newBooks = $books->sortByDesc('created_at')->take(3);
+    # Or, filter out the new website$websites from the existing $websites Collection
+    //$newwebsite$websites = $websites->sortByDesc('created_at')->take(3);
     
-    return view('websites.review')->with([
-        'websites' => $websites,
-        //'newBooks' => $newBooks
-    ]);
+   // return view('websites.review')->with([
+    //    'websites' => $websites,
+        //'newwebsite$websites' => $newwebsite$websites
+  //  ]);
     
+  //  }
+
+  /**
+     * GET /websites/{slug}/review
+     */
+    public function review(Request $request, $slug)
+    {
+        $website = Website::where('slug', '=', $slug)->first();
+
+        return view('websites.review')->with([
+            'website' => $website
+        ]);
     }
+
+    /**
+     * PUT /websites/{$slug}
+     */
+    public function update(Request $request, $slug)
+    {
+        $website = Website::where('slug', '=', $slug)->first();
+
+        $request->validate([
+            'slug' => 'required|unique:websites,slug,'.$website->id.'|alpha_dash',
+            'name' => 'required',
+            'organization' => 'required',
+            'published_year' => 'required|digits:4',
+            'website_image' => 'url',
+            'website_url' => 'url',
+            'category' => 'required',
+            'summary' => 'required|min:255'
+        ]);
+
+        $website->slug = $request->slug;
+        $website->name = $request->name;
+        $website->organization = $request->organization;
+        $website->website_image = $request->website_image;
+        $website->website_url = $request->website_url;
+        $website->category = $request->category;
+        $website->summary = $request->summary;
+        $website->save();
+
+        return redirect('/websites/'.$slug.'/review')->with([
+            'flash-alert' => 'Your review was saved.'
+        ]);
+    }
+
 
     public function show($slug)
     {
@@ -62,16 +106,16 @@ public function index()
         $websites = Website::orderBy('category')->get();
 
     # Query database for new websites
-    //$newBooks = Book::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
+    //$newwebsite$websites = website$website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
 
-    # Or, filter out the new books from the existing $books Collection
-    //$newBooks = $books->sortByDesc('created_at')->take(3);
+    # Or, filter out the new website$websites from the existing $websites Collection
+    //$newwebsite$websites = $websites->sortByDesc('created_at')->take(3);
     
     return view('websites.category')->with([
         'websites' => $websites,
         //'newWebsites' => $newWebsites
     ]);
-    
+
     }
 
     /**
@@ -82,7 +126,7 @@ public function index()
     /*
     public function category($category)
     {
-        $output = 'Here are all the books under the category '.$category;
+        $output = 'Here are all the website$websites under the category '.$category;
         }
     **/
         

@@ -20,7 +20,7 @@
             <ul>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/websites'>All Websites</a></li>
-                <li><a href='/review'>Review Websites</a></li>
+                <li><a href='/review-websites'>Review Websites</a></li>
                 <li><a href='/contact'>Contact Us</a></li>
             <!-- Notes to myself: add review view -->
             </ul>

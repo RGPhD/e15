@@ -3,8 +3,8 @@
 @section('content')
 <h2>Contact Us</h2>
 
-<!--{{ config('mail.supportEmail') }}-->
-<h4>Email: CoronavirusWebsites@gmail.com</h4>
+<!-- I could config email instead of making it clickable {{ config('mail.contactEmail') }}-->
+<h4>Email: <a href="mailto:CoronavirusWebsites@gmail.com">CoronavirusWebsites@gmail.com</a></h4>
 
 <p>Share our Tinyurl: <a href='http://tinyurl.com/coronaviruswebsites'>http://tinyurl.com/coronaviruswebsites</p>
 @endsection

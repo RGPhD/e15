@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Website;
 
 class PageController extends Controller
 {
@@ -11,11 +12,18 @@ class PageController extends Controller
         return view('pages.welcome');
     }
 
+    public function review()
+    {
+        $websites = Website::orderBy('name')->get();
+        return view('pages.review-websites')->with([
+            'websites' => $websites,
+    ]);
+    }
 
     public function contact()
     {
         return view('pages.contact');
     }
-    //not showing up as a link on welcome page
+
 }
 # work on this code for p3

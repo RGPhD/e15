@@ -19,8 +19,9 @@ Route::get('/', 'PageController@welcome');
 
 // # Show all websites
 Route::get('/websites', 'WebsiteController@index');
-Route::get('/review', 'WebsiteController@review');
+# Route::get('/review', 'WebsiteController@review');
 Route::get('/contact', 'PageController@contact');
+Route::get('/review-websites', 'PageController@review');
 Route::get('/websites/category', 'WebsiteController@category');
 
 //Route::get('/websites/{name?}', function($name) {
@@ -28,6 +29,10 @@ Route::get('/websites/category', 'WebsiteController@category');
   //  });
 
 Route::get('/websites/{name}', 'WebsiteController@show');
+
+# Review a website
+Route::get('/websites/{slug}/review', 'WebsiteController@review');
+Route::put('/websites/{slug}', 'WebsiteController@update');
 
 Route::get('/debug', function () {
 
