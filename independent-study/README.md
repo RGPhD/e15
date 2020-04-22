@@ -29,7 +29,7 @@
 + CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple web page elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
 + Further, CSS Grid can divide a page into main sections and define the relationship of HTML primitives by size, position, and even layer.
 + The only disadvantage I have found for CSS Grid is older browser compatibility issues.  However, “when used with care for simple cases, Grid can gracefully fall back to older layout techniques” (Williams, 2018).
-+ Learn more about CSS Grid. Get 6 months of Frontend Masters membership FREE by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
++ Learn more about CSS Grid. Get 6 months of an Ecucative and or Frontend Masters membership **FREE** by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 + When coding responsive layouts there are strengths and weaknesses of float-based layout, Flexbox layout, and CSS Grid layout.  The key is to find when is it appropriate to use each methodology and or a combination of methodologies.
