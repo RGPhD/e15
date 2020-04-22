@@ -17,6 +17,7 @@
     <p>Website category: {{ $website->category }}</p>
     <p>Website summary: {{ $website->summary }}</p>
     <p>Visit Website: <a href='{{ $website->website_url }}'>{{ $website->website_url }}</a></p>
+    <p>Website reviews (if available): {{ $website->review }}</p>
 
 <ul class='websiteActions'>
     <li><a href='/websites/{{ $website->slug }}/review'><i class="fa fa-edit"></i> Review This Website</a>

@@ -32,7 +32,8 @@ Route::get('/websites/{name}', 'WebsiteController@show');
 
 # Review a website
 Route::get('/websites/{slug}/review', 'WebsiteController@review');
-Route::put('/websites/{slug}', 'WebsiteController@update');
+Route::get('/websites/{slug}', 'WebsiteController@update');
+# put or get to Review and update a website
 
 Route::get('/debug', function () {
 

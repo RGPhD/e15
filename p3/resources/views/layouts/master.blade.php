@@ -23,6 +23,7 @@
                 <li><a href='/review-websites'>Review Websites</a></li>
                 <li><a href='/contact'>Contact Us</a></li>
             <!-- Notes to myself: add review view -->
+            <li><a href='/login'>Login</a></li>
             </ul>
         </nav>
     </header>

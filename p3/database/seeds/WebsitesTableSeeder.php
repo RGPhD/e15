@@ -52,6 +52,7 @@ class WebsitesTableSeeder extends Seeder
     $website->organization = 'CDC';
     $website->website_image = 'https://www.cdc.gov/homepage/images/cdc-in-action/COVID-19-Response-647x381px.jpg';
     $website->summary = "The Centers for Disease Control and Prevention's COVID-19 UPDATES.";
+    $website->review = "Centers for Disease Control and Prevention's COVID-19 UPDATES website provides up to date coverage of the Overview, Prevention, and Symptoms of COVID-19.";
     $website->save();
 
     $website = new Website();

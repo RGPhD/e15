@@ -31,6 +31,7 @@ class CreateWebsitesTable extends Migration
             # Here I used a column modifier to specify this column can be left empty (null)
             # I also used website_image instead of just image, because I use image in css for different views (Put this in Instructor notes)
             $table->text('summary');
+            $table->text('review')->nullable();
         });
     }
 

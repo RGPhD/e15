@@ -65,23 +65,23 @@ public function index()
         $website = Website::where('slug', '=', $slug)->first();
 
         $request->validate([
-            'slug' => 'required|unique:websites,slug,'.$website->id.'|alpha_dash',
+           /* 'slug' => 'required|unique:websites,slug,'.$website->id.'|alpha_dash',
             'name' => 'required',
             'organization' => 'required',
             'published_year' => 'required|digits:4',
             'website_image' => 'url',
             'website_url' => 'url',
-            'category' => 'required',
-            'summary' => 'required|min:255'
+            'category' => 'required',*/
+            'review' => 'required|min:255'
         ]);
 
-        $website->slug = $request->slug;
+        /*$website->slug = $request->slug;
         $website->name = $request->name;
         $website->organization = $request->organization;
         $website->website_image = $request->website_image;
         $website->website_url = $request->website_url;
-        $website->category = $request->category;
-        $website->summary = $request->summary;
+        $website->category = $request->category;*/
+        $website->review = $request->review;
         $website->save();
 
         return redirect('/websites/'.$slug.'/review')->with([

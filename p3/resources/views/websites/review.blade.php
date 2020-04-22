@@ -11,14 +11,14 @@ Review - {{ $website->name }}
     <h3>{{ $website->name }}</h3>
     <p>Visit Website: <a href='{{ $website->website_url }}'>{{ $website->website_url }}</a></p>
 
-    <form method='POST' id='review'>
+    <form method='GET' id='review'> <!--Change to POST if I want it secure-->
 
         <div class='form-group'>
             <label for='review'>Review of Website</label>
-            <textarea name='review' id='review' class='form-control' placeholder='Enter Your Website Review'></textarea>
+            <textarea name='review' id='review' class='form-control' placeholder='Enter Your Website Review Here'></textarea>
         </div>
 
-        <button type='submit' class='btn btn-primary'>Submit Website Review</button>
+        <button type='submit' class='btn btn-primary' value='Update'>Submit Your Website Review</button>
     </form>
     
 @endsection
