@@ -37,12 +37,11 @@
 + When a web page combines both a one-dimensional and a two-dimensional responsive layout then combining these two methodologies is suggested.  Flexbox and CSS Grid integrate quite well together; online course designers and web designers are already taking advantage of the strengths of combining these methodologies in responsive design and responsive eLearning design.
 
 ## The Best Methodology
-+ CSS Grid ...
-+ 
-+ 
-+ 
-+ 
-+ 
++ Across platforms, CSS Grid is the best (excelling all others) CSS methodology for laying out web pages and HTML elements.  As aforementioned, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.  
++ As the best and most powerful methodology, CSS Grid is a monumental leap forward from the float hacks and table hacks which were once the only layouts available to front end web designers.  CSS Grid can handle basic layouts and complex layout problems more consistently and semantically.  
++ This method makes it easier to design responsive web pages with the ability to define different size rows, columns, nesting, offsetting, layering and overlapping.  Although older and soon to be obsolete browsers do not support CSS Grid, it is able to function across multiple modern browsers, with fairly reasonable fallbacks (Kramer, 2020).
++ As an eLearning Professor and Post-Doc Scholar, I recognize the importance of responsive design in eLearning.  A course site’s ability to adapt elements seamlessly across devices is referred to as responsive eLearning design.
++ Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).  + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact eLearning experience.
 
 ## Example
 + Insert working example via screenshot image and or embedded code ...
