@@ -1,5 +1,5 @@
 # CSS Layout Methodologies for Responsive eLearning Design
-+ By: *Robelyn Garcia*
++ By: *Robelyn Garcia, PhD*
 
 <img src="images/hes-logo.png" alt="Harvard Extension Logo">
 
@@ -29,6 +29,7 @@
 + CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple web page elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
 + Further, CSS Grid can divide a page into main sections and define the relationship of HTML primitives by size, position, and even layer.
 + The only disadvantage I have found for CSS Grid is older browser compatibility issues.  However, “when used with care for simple cases, Grid can gracefully fall back to older layout techniques” (Williams, 2018).
++ Learn more about CSS Grid. Get 6 months of Frontend Masters membership FREE by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 + When coding responsive layouts there are strengths and weaknesses of float-based layout, Flexbox layout, and CSS Grid layout.  The key is to find when is it appropriate to use each methodology and or a combination of methodologies.
@@ -43,7 +44,7 @@
 + This method makes it easier to design responsive web pages with the ability to define different size rows, columns, nesting, offsetting, layering and overlapping.  Although older and soon to be obsolete browsers do not support CSS Grid, it is able to function across multiple modern browsers, with fairly reasonable fallbacks (Kramer, 2020).
 + As an eLearning Professor and Post-Doc Scholar, I recognize the importance of responsive design in eLearning.  A course site’s ability to adapt elements seamlessly across devices is referred to as responsive eLearning design.
 + Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).
-+ Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact eLearning experience.
++ Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
 ## Example
 + Insert working example via screenshot image and or embedded code ...
