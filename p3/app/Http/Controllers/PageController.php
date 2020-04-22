@@ -12,6 +12,12 @@ class PageController extends Controller
         return view('pages.welcome');
     }
 
+    public function login()
+    {
+        return view('pages.contact');
+        //return view('pages.login');
+    }
+
     public function review()
     {
         $websites = Website::orderBy('name')->get();

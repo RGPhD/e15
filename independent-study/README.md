@@ -11,10 +11,12 @@
 + I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must of course understand both the new border box model and the old content box model.
 + When writing and reading float, Flexbox and CSS Grid code, it is imperative to remember that every element in your web browser or eLearning course webpage has a box surrounding it.
 + Insert Image/Diagram Example Here ...
-+ Separation of Concerns for CSS methodologies.  “In computer science, Separation of Concerns (SoC) refers to the practice of breaking a program into distinct sections, each with their own concern/responsibility. Benefits: Provides a logical organizational structure Easier to maintain/More flexible for collaboration amongst a team of developers. Makes aspects of the program modular and thus reusable. Example SoC: HTML & CSS” (Buck, 2020).  Whichever CSS methodology you ultimately decide to use, it is highly recommended to utilize SoC.
+
+# Separation of Concerns for CSS methodologies
++ “In computer science, Separation of Concerns (SoC) refers to the practice of breaking a program into distinct sections, each with their own concern/responsibility. Benefits: Provides a logical organizational structure Easier to maintain/More flexible for collaboration amongst a team of developers. Makes aspects of the program modular and thus reusable. Example SoC: HTML & CSS” (Buck, 2020).  Whichever CSS methodology you ultimately decide to use, it is highly recommended to utilize SoC.
 
 ## Floats
-+ I will start with one of the oldest CSS methodologies, which is float-based grid systems, the website design and mobile front-end design industry's standard (Kramer, 2018a).
++ I will start with one of the oldest CSS methodologies, which is float-based grid systems, the website design and mobile front-end design industry's standard (Kramer, 2020).
 + Floats are a CSS positioning property that is often used for wrapping text around images.  Wrapping text is one of the positive characteristics of a float layout, in addition to floating elements remaining a part of the regular flow of an eLearning course website or web page.
 + While floats are still being used for a lot of layout, there are much stronger tools in modern web design for creating layout on web pages.  Specifically, I refer to CSS Grid (aka ‘grid’) and Flexbox (Coyier, 2019).
 
@@ -23,10 +25,9 @@
 + 
 + 
 
-## CSS Grid
-+ CSS Grid ...
-+ 
-+ 
++ CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple web page elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
++ Further, CSS Grid can divide a page into main sections and define the relationship of HTML primitives by size, position, and even layer.
++ The only disadvantage I have found for CSS Grid is older browser compatibility issues.  However, “when used with care for simple cases, Grid can gracefully fall back to older layout techniques” (Williams, 2018).
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 + When coding responsive layouts there are strengths and weaknesses of float-based layout, Flexbox layout, and CSS Grid layout.  The key is to find when is it appropriate to use each methodology and or a combination of methodologies.
