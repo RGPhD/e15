@@ -35,13 +35,15 @@
 + When building an eLearning course webpage with a one-dimensional layout, Flexbox is the obvious choice because of cross browser compatibility and support.
 + However, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.
 + When a web page combines both a one-dimensional and a two-dimensional responsive layout then combining these two methodologies is suggested.  Flexbox and CSS Grid integrate quite well together; online course designers and web designers are already taking advantage of the strengths of combining these methodologies in responsive design and responsive eLearning design.
++ To learn more about Utilization and Combination of Appropriate CSS Methodologies visit CSS Grid and Flexbox for Responsive Web Design by Frontend Masters and Jen Kramer (Harvard University Extension School) <https://frontendmasters.com/courses/css-grids-flexbox>.
 
 ## The Best Methodology
 + Across platforms, CSS Grid is the best (excelling all others) CSS methodology for laying out web pages and HTML elements.  As aforementioned, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.  
 + As the best and most powerful methodology, CSS Grid is a monumental leap forward from the float hacks and table hacks which were once the only layouts available to front end web designers.  CSS Grid can handle basic layouts and complex layout problems more consistently and semantically.  
 + This method makes it easier to design responsive web pages with the ability to define different size rows, columns, nesting, offsetting, layering and overlapping.  Although older and soon to be obsolete browsers do not support CSS Grid, it is able to function across multiple modern browsers, with fairly reasonable fallbacks (Kramer, 2020).
 + As an eLearning Professor and Post-Doc Scholar, I recognize the importance of responsive design in eLearning.  A course site’s ability to adapt elements seamlessly across devices is referred to as responsive eLearning design.
-+ Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).  + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact eLearning experience.
++ Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).
++ Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact eLearning experience.
 
 ## Example
 + Insert working example via screenshot image and or embedded code ...
@@ -62,17 +64,23 @@
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
 https://hesweb.dev/e15/notes/php/separation-of-concerns
 + Coyier, C. (2019). All About Floats.  CSS Tricks.  Retrieved from 
-    <https://css-tricks.com/all-about-floats>
-+ Kramer, J. (2020).  CSS Grid and Flexbox in Responsive Web Design.  Retrieved from 
-    <https://frontendmasters.com/courses/css-grids-flexbox>
+https://css-tricks.com/all-about-floats
++ Kramer, J. (2018).  CSS Grid and Flexbox in Responsive Web Design Abstract. 
+Retrieved from https://scholar.harvard.edu/jen4web/publications
+/css-grid-and-flexbox-responsive-web-design
++ Kramer, J. (2020).  Responsive Layout 2.0.  Linkedin Learning: Harvard.  Retrieved 
+from https://www.linkedin.com/learning/responsive-layout-2-0
+/the-evolution-of-responsive-design
 + Mozilla Developer Network (MDN) contributors. (2020). CSS Grid Layout. Retrieved from 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 + Pandey, A.  (2018).  Responsive eLearning Design for Higher Engagement And A
-    Better Learning Experience.  eLearning Industry.  Retrieved from 
-    <https://elearningindustry.com/responsive-elearning-design-higher-engagement-learning-experience-7-examples>
-+ Williams, O. (2018).  The Slow Death of Internet Explorer and the Future of 
-    Progressive  Enhancement.  Retrieved from <https://alistapart.com/article/the-slow-death-of-internet-explorer-and-future-of-progressive-enhancement>
-+ Insert more References as needed ...
+ 	Better Learning Experience.  eLearning Industry.  Retrieved from 
+https://elearningindustry.com/responsive-elearning-design-higher-engagement-
+learning-experience-7-examples
++ Williams, O. (2018).  The Slow Death of Internet Explorer and the Future of Progressive 
+Enhancement.  Retrieved from https://alistapart.com/article/the-slow-death-of
+-internet-explorer-and-future-of-progressive-enhancement
+
 
 ### Learning to code is much like learning to play a sport! 
 __*"To really get good, it takes an understanding of the fundamentals, lots and lots of hands-on practice, and the ability to learn from others"*__ Harvard Digital Media Professor [Larry Bouthillier](https://www.extension.harvard.edu/faculty-directory/laurence-p-bouthillier).
