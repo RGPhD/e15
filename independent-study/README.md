@@ -21,9 +21,9 @@
 + While floats are still being used for a lot of layout, there are much stronger tools in modern web design for creating layout on web pages.  Specifically, I refer to CSS Grid (aka ‘grid’) and Flexbox (Coyier, 2019).
 
 ## Flexbox
-+ Flexbox ...
-+ 
-+ 
++ Flexbox provides a more effective way to code the layout and distribute space among elements in a container, even when their size is constantly changing.  Flexbox's remarkable alignment and ordering features can “juice up our grid, taking us places that simply weren't possible with floats” (Kramer, 2018).  
++ A big advantage of Flexbox besides its CSS aligning features is that it is supported in all modern browsers and most mobile platforms.  This is of import for eLearning because many online students often switch in between devices.
++ As a brand new full-stack web developer, I have found Flexbox easy to code for parts of my webpages.  However, it is not as fault tolerant as CSS Grid when trying to code an entire course site page.
 
 ## CSS Grid
 + CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple web page elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
@@ -35,7 +35,7 @@
 + When building an eLearning course webpage with a one-dimensional layout, Flexbox is the obvious choice because of cross browser compatibility and support.
 + However, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.
 + When a web page combines both a one-dimensional and a two-dimensional responsive layout then combining these two methodologies is suggested.  Flexbox and CSS Grid integrate quite well together; online course designers and web designers are already taking advantage of the strengths of combining these methodologies in responsive design and responsive eLearning design.
-+ To learn more about Utilization and Combination of Appropriate CSS Methodologies visit CSS Grid and Flexbox for Responsive Web Design by Frontend Masters and Jen Kramer (Harvard University Extension School) <https://frontendmasters.com/courses/css-grids-flexbox>.
++ To learn more about Utilization and Combination of Appropriate CSS Methodologies visit CSS Grid and Flexbox for Responsive Web Design <https://frontendmasters.com/courses/css-grids-flexbox>.
 
 ## The Best Methodology
 + Across platforms, CSS Grid is the best (excelling all others) CSS methodology for laying out web pages and HTML elements.  As aforementioned, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.  
