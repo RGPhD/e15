@@ -13,7 +13,7 @@
 # Floats, Flexbox and CSS Grid for Online Courses
 + I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must of course understand both the new border box model and the old content box model.
 + When writing and reading float, Flexbox and CSS Grid code, it is imperative to remember that every element in your web browser or eLearning course webpage has a box surrounding it.
-+ Insert Image/Diagram Example Here ...
++ **Insert Image/Diagram Example Here ...**
 
 ## Floats
 + I will start with one of the oldest CSS methodologies, which is float-based grid systems, the website design and mobile front-end design industry's standard (Kramer, 2020).
@@ -29,7 +29,7 @@
 + CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple web page elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
 + Further, CSS Grid can divide a page into main sections and define the relationship of HTML primitives by size, position, and even layer.
 + The only disadvantage I have found for CSS Grid is older browser compatibility issues.  However, “when used with care for simple cases, Grid can gracefully fall back to older layout techniques” (Williams, 2018).
-+ Learn more about CSS Grid. Get 6 months of an Ecucative and or Frontend Masters membership **FREE** by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
++ Learn more about CSS Grid and other CSS Methodologies. Get 6 months of an Educative and or Frontend Masters membership **FREE** by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 + When coding responsive layouts there are strengths and weaknesses of float-based layout, Flexbox layout, and CSS Grid layout.  The key is to find when is it appropriate to use each methodology and or a combination of methodologies.
@@ -47,11 +47,11 @@
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
 ## Example
-+ Insert working example via screenshot image and or embedded code ...
++ **Insert working example via screenshot image ...**
 
 ## Practice
-+ Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>
-+ Practice CSS for your own webpage at: Create another code page at jsfiddle or codepen.
++ Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>.
++ **Insert screenshot of code ...**
 
 ## Resources
 + A Complete Guide to Grid: <https://css-tricks.com/snippets/css/complete-guide-grid>
