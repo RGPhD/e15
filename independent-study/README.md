@@ -32,6 +32,7 @@
 + Learn more about CSS Grid and other CSS Methodologies. Get 6 months of an Educative and or Frontend Masters membership **FREE** by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
 + **Example of CSS Grid Dynamic Elements Below:**
 <img src="images/css-grid-e15.gif" alt="CSS Grid E-15">
+
 ```1-Header, 2-Article Aside One, 3-Article Aside Two, 4-Aside One, 5-Aside Two```
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
@@ -49,7 +50,7 @@
 + Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
-## Screenshot of Examples of an Online Class utilizing CSS Grid
+## Screenshot Examples of an Online Class utilizing CSS Grid
 + 
 
 ## Practice
