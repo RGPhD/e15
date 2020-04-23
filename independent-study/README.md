@@ -34,9 +34,9 @@
 + The only disadvantage I have found for CSS Grid is older browser compatibility issues.  However, “when used with care for simple cases, Grid can gracefully fall back to older layout techniques” (Williams, 2018).
 + Learn more about CSS Grid and other CSS Methodologies. Get 6 months of an Educative and or Frontend Masters membership **FREE** by enrolling in the GitHub Student Developer Pack at <https://education.github.com/students>.
 + **Example of CSS Grid Dynamic Elements Below:**
-<img src="images/css-grid-e15.gif" alt="CSS Grid E-15">
+<img src="images/css-grid-e15.gif" alt="CSS Grid E-15" title="CSS Grid E-15">
 
-```1-Header, 2-Article Aside One, 3-Article Aside Two, 4-Aside One, 5-Aside Two```
+```Dynamic Elements: 1-Header, 2-Article Aside One, 3-Article Aside Two, 4-Aside One, 5-Aside Two```
 
 ## Utilization and Combination of Appropriate CSS Layout Methodologies
 + When coding responsive layouts there are strengths and weaknesses of float-based layout, Flexbox layout, and CSS Grid layout.  The key is to find when is it appropriate to use each methodology and or a combination of methodologies.
@@ -49,12 +49,13 @@
 + Across platforms, CSS Grid is the best (excelling all others) CSS methodology for laying out web pages and HTML elements.  As aforementioned, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.  
 + As the best and most powerful methodology, CSS Grid is a monumental leap forward from the float hacks and table hacks which were once the only layouts available to front end web designers.  CSS Grid can handle basic layouts and complex layout problems more consistently and semantically.  
 + This method makes it easier to design responsive web pages with the ability to define different size rows, columns, nesting, offsetting, layering and overlapping.  Although older and soon to be obsolete browsers do not support CSS Grid, it is able to function across multiple modern browsers, with fairly reasonable fallbacks (Kramer, 2020).
-+ As an eLearning Professor and Post-Doc Scholar, I recognize the importance of responsive design in eLearning.  A course site’s ability to adapt elements seamlessly across devices is referred to as responsive eLearning design.
-+ Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).
++ As an eLearning Professor and online Post-Doc Scholar, I recognize the importance of responsive design in eLearning.  A course site’s ability to adapt elements seamlessly across devices is referred to as responsive eLearning design.
++ Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018). CSS Grid can handle the basic course functions as well as video replay and multiple webinar  functionality needed for 2020's increased online course demand.
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
 ## Screenshot Examples of an Online Class utilizing CSS Grid
 + 
+```CSS Grid enables course designers the ability to move page elements with ease.```
 
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>.
