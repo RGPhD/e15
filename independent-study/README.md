@@ -60,7 +60,7 @@
 ```CSS Grid enables course designers the ability to move page elements with ease.```
 
 + Personalized CSS Grid eLearning Responsive Design Course Layout
-<img src="images/buck-css-grid-e15.gif" alt="CSS Grid E-15 Personalized Course Layout" title="CSS Grid E-15 Personalized Course Layout">
+<img src="images/buck-css-grid-e15.jpg" alt="CSS Grid E-15 Personalized Course Layout" title="CSS Grid E-15 Personalized Course Layout">
 
 ```CSS Grid enables course designers and Professors the ability to personalize their online course.```
 
