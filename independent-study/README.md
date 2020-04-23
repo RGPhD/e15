@@ -49,12 +49,11 @@
 + Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018).
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
-## Example
-+ **Insert working example via screenshot image ...**
+## Screenshot of Examples of an Online Class utilizing CSS Grid
++ 
 
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>.
-+ **Insert screenshot of code ...**
 
 ## Resources
 + A Complete Guide to Grid: <https://css-tricks.com/snippets/css/complete-guide-grid>
