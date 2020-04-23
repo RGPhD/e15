@@ -64,11 +64,6 @@
 
 ```CSS Grid enables course designers and Professors the ability to personalize their online course.```
 
-+ Personalized CSS Grid eLearning Responsive Design Course Layout
-<img src="images/buck-css-grid-e15.jpg" alt="CSS Grid E-15 Personalized Course Layout" title="CSS Grid E-15 Personalized Course Layout">
-
-```CSS Grid enables course designers and Professors the ability to personalize their online course.```
-
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>.
 
