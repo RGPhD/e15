@@ -54,8 +54,15 @@
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
 ## Screenshot Examples of an Online Class utilizing CSS Grid
-+ 
++ CSS Grid Dynamic eLearning Responsive Design Course Format
+<img src="images/responsive-css-grid-e15.gif" alt="Responsive CSS Grid E-15" title="Responsive CSS Grid E-15">
+
 ```CSS Grid enables course designers the ability to move page elements with ease.```
+
++ Personalized CSS Grid eLearning Responsive Design Course Layout
+<img src="images/buck-css-grid-e15.gif" alt="CSS Grid E-15 Personalized Course Layout" title="CSS Grid E-15 Personalized Course Layout">
+
+```CSS Grid enables course designers and Professors the ability to personalize their online course.```
 
 ## Practice
 + Practice CSS Grid for your own Course at: <https://codepen.io/DrRobelynGarcia/pen/gOpBzbJ>.
