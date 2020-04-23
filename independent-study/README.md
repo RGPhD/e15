@@ -13,7 +13,10 @@
 # Floats, Flexbox and CSS Grid for Online Courses
 + I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must of course understand both the new border box model and the old content box model.
 + When writing and reading float, Flexbox and CSS Grid code, it is imperative to remember that every element in your web browser or eLearning course webpage has a box surrounding it.
-+ **Example of E-15 Course Box Model Elements Below:**
+**Example of E-15 Course Box Model Elements Below:**
+<img src="images/box-model-e15.jpg" alt="Box Model E-15" title="Box Model E-15">
+
+ ```Notice each element has a box around it. For example the Header and the side menu.```
 
 ## Floats
 + I will start with one of the oldest CSS methodologies, which is float-based grid systems, the website design and mobile front-end design industry's standard (Kramer, 2020).
