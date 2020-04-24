@@ -71,10 +71,10 @@
 ## Resources
 + A Complete Guide to Grid: <https://css-tricks.com/snippets/css/complete-guide-grid>
 + Free CSS Bootcamp: <https://frontendmasters.com/bootcamp/introduction-css>
-+ CSS Grid Layout Module <https://www.w3schools.com/css/css_grid.asp>
++ CSS Grid Layout Module: <https://www.w3schools.com/css/css_grid.asp>
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
-+ This note set Production URL: <http://HarvardeLearning.ga>
++ This note set Production URL and code: <http://HarvardeLearning.ga>/<https://github.com/RGPhD/e15/tree/master/independent-study>.
 
 ## References
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
