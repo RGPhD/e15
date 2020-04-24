@@ -44,7 +44,7 @@
 + When building an eLearning course webpage with a one-dimensional layout, Flexbox is the obvious choice because of cross browser compatibility and support.
 + However, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both columns and rows in dynamic fashion and success.
 + When a web page combines both a one-dimensional and a two-dimensional responsive layout then combining these two methodologies is suggested.  Flexbox and CSS Grid integrate quite well together; online course designers and web designers are already taking advantage of the strengths of combining these methodologies in responsive design and responsive eLearning design.
-+ To learn more about Utilization and Combination of Appropriate CSS Methodologies visit CSS Grid and Flexbox for Responsive Web Design <https://frontendmasters.com/courses/css-grids-flexbox>.
++ To learn more about Utilization and Combination of Appropriate CSS Methodologies visit CSS Grid and Flexbox for Responsive Web Design at <https://frontendmasters.com/courses/css-grids-flexbox>.
 
 ## The Best Methodology
 + Across platforms, CSS Grid is the best (excelling all others) CSS methodology for laying out web pages and HTML elements.  As aforementioned, when a two-dimensional responsive layout is required or preferred, CSS Grid will code both [columns and rows in dynamic fashion](https://codepen.io/DrRobelynGarcia/pen/jOOzzgj) and success.  
@@ -74,7 +74,7 @@
 + CSS Grid Layout Module <https://www.w3schools.com/css/css_grid.asp>
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
-+ This note set Production URL: <https://github.com/RGPhD/e15/blob/master/independent-study/README.md>
++ This note set Production URL: <http://HarvardeLearning.ga>
 
 ## References
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
@@ -82,20 +82,16 @@ https://hesweb.dev/e15/notes/php/separation-of-concerns
 + Coyier, C. (2019). All About Floats.  CSS Tricks.  Retrieved from 
 https://css-tricks.com/all-about-floats
 + Kramer, J. (2018).  CSS Grid and Flexbox in Responsive Web Design Abstract. 
-Retrieved from https://scholar.harvard.edu/jen4web/publications
-/css-grid-and-flexbox-responsive-web-design
+Retrieved from https://scholar.harvard.edu/jen4web/publications/css-grid-and-flexbox-responsive-web-design
 + Kramer, J. (2020).  Responsive Layout 2.0.  Linkedin Learning: Harvard.  Retrieved 
-from https://www.linkedin.com/learning/responsive-layout-2-0
-/the-evolution-of-responsive-design
+from https://www.linkedin.com/learning/responsive-layout-2-0/the-evolution-of-responsive-design
 + Mozilla Developer Network (MDN) contributors. (2020). CSS Grid Layout. Retrieved from 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 + Pandey, A.  (2018).  Responsive eLearning Design for Higher Engagement And A
  	Better Learning Experience.  eLearning Industry.  Retrieved from 
-https://elearningindustry.com/responsive-elearning-design-higher-engagement-
-learning-experience-7-examples
+https://elearningindustry.com/responsive-elearning-design-higher-engagement-learning-experience-7-examples
 + Williams, O. (2018).  The Slow Death of Internet Explorer and the Future of Progressive 
-Enhancement.  Retrieved from https://alistapart.com/article/the-slow-death-of
--internet-explorer-and-future-of-progressive-enhancement
+Enhancement.  Retrieved from https://alistapart.com/article/the-slow-death-of-internet-explorer-and-future-of-progressive-enhancement
 
 
 ### Learning to code is much like learning to play a sport! 
