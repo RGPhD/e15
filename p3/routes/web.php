@@ -64,3 +64,4 @@ Route::get('/debug', function () {
 
 //Route::get('/category/{category}', 
 //'WebsiteController@category');
+Auth::routes();
