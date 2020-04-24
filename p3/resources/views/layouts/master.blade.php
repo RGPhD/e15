@@ -23,7 +23,17 @@
                 <li><a href='/review-websites'>Review Websites</a></li>
                 <li><a href='/contact'>Contact Us</a></li>
             <!-- Notes to myself: add review view -->
-            <li><a href='/login'>Login</a></li>
+            <!--<li><a href='/login'>Login</a></li>-->
+                <li>
+            @if(!Auth::user())
+                <a href='/login'>Login</a>
+            @else
+                <form method='POST' id='logout' action='/logout'>
+                    {{ csrf_field() }}
+                    <a href='#' onClick='document.getElementById("logout").submit();'>Logout</a>
+                </form>
+            @endif
+               </li>
             </ul>
         </nav>
     </header>
