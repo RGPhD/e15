@@ -54,7 +54,7 @@
 + Developing a responsive eLearning design university course is a decision by college course web designers and professors to create a more engaging educational interaction.  “Responsive eLearning designs draw their inspiration from the responsive website designs” (Pandey, 2018). CSS Grid can handle the basic course functions as well as video replay and multiple webinar  functionality needed for 2020's increased online course demand.
 + Just as CSS Grid is the best methodology available for responsive websites, the same is true for responsive eLearning platforms.  CSS Grid gives course designers and Professors the ability to provide optimal viewing across a myriad of devices for a higher impact online eLearning experience.
 
-## Examples of an Online Class utilizing CSS Grid Layout System 
+## Screenshots of an Online Class utilizing CSS Grid Layout System 
 1. **CSS Grid Dynamic eLearning Responsive Design Course Format**
 <img src="images/responsive-css-grid-e15.gif" alt="Responsive CSS Grid E-15" title="Responsive CSS Grid E-15">
 
@@ -74,7 +74,7 @@
 + CSS Grid Layout Module: <https://www.w3schools.com/css/css_grid.asp>
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
-+ This note set Production URL and code: <http://HarvardeLearning.ga> ... <https://github.com/RGPhD/e15/tree/master/independent-study>.
++ This note set GitHub code: <https://github.com/RGPhD/e15/tree/master/independent-study>.
 
 ## References
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
