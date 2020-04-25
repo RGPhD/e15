@@ -85,11 +85,11 @@ public function index()
         $website->review = $request->review;
         $website->save();
 
-        return 'Your review was saved';
+      /*   return 'Your review was saved'; */
 
-  /*      return redirect('/websites/'.$slug.'/review')->with([
+       return redirect('/websites/'.$slug.'/edit')->with([
             'flash-alert' => 'Your review was saved.'
-        ]);       */
+        ]);       
     }
 
     public function category()

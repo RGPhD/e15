@@ -53,6 +53,18 @@ a.active:hover {
     color: #DC143C;
 }
 
+.flash-alert {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
 footer {
     color: #DC143C;
     margin: auto;
