@@ -63,7 +63,7 @@ public function index()
      */
     public function update(Request $request, $slug)
     {
-        /*$request->validate([
+    $request->validate([
             /* 'slug' => 'required|unique:websites,slug,'.$website->id.'|alpha_dash',
              'name' => 'required',
              'organization' => 'required',
@@ -71,8 +71,8 @@ public function index()
              'website_image' => 'url',
              'website_url' => 'url',
              'category' => 'required',*/
-   /*          'review' => 'required|min:255'
-         ]);        */
+             'review' => 'required'
+         ]);        
 
         $website = Website::where('slug', '=', $slug)->first();
 
