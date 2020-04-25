@@ -20,7 +20,7 @@
     <p>Website reviews (if available): {{ $website->review }}</p>
 
 <ul class='websiteActions'>
-    <li><a href='/websites/{{ $website->slug }}/review'><i class="fa fa-edit"></i> Review This Website</a>
+    <li><a href='/websites/{{ $website->slug }}/edit'><i class="fa fa-edit"></i> Review This Website</a>
 </ul>
 
 @endif

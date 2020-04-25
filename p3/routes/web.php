@@ -29,10 +29,11 @@ Route::get('/websites/category', 'WebsiteController@category');
  //   return 'View the name of the website: ' .$name;
   //  });
 
+// # Show one website
 Route::get('/websites/{name}', 'WebsiteController@show');
 
 # Review a website
-Route::get('/websites/{slug}/review', 'WebsiteController@review');
+Route::get('/websites/{slug}/edit', 'WebsiteController@edit');
 Route::put('/websites/{slug}', 'WebsiteController@update');
 # put or get to Review and update a website
 

@@ -13,6 +13,10 @@
 
 <body>
 
+@if(session('flash-alert'))
+    <div class='flash-alert'>{{ session('flash-alert') }}</div>
+@endif
+
     <header>
         <h1>Coronavirus Websites</h1>
         <a href='/'><img src='/images/free.cdc.covid19.image.tif' id='image' alt='CDC Covid-19 Image'></a>
