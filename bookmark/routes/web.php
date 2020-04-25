@@ -63,7 +63,7 @@ Route::get('/debug', function () {
  */
 Route::get('/', 'PageController@welcome');
 Route::get('/support', 'PageController@support');
-
+Route::get('/login', 'PageController@login');
 
 /**
  * Books

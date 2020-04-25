@@ -32,4 +32,10 @@ class PageController extends Controller
     {
         return view('pages.support');
     }
+
+    public function login()
+    {
+        return 'Login Here';
+        //return view('pages.login');
+    }
 }
