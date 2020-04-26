@@ -15,14 +15,16 @@ Route::get('/', 'PageController@welcome');
 
 
 # Query the database for a website
-# Return a view to show each website include website data
+# Return a view to show each website & include website data
 
 // # Show all websites
 Route::get('/websites', 'WebsiteController@index');
 # Route::get('/review', 'WebsiteController@review');
 Route::get('/contact', 'PageController@contact');
 Route::get('/login', 'PageController@login');
-Route::get('/review-websites', 'PageController@review');
+Route::get('/review-websites', [
+    'middleware' => 'auth',
+    'uses' =>'PageController@review']);
 Route::get('/websites/category', 'WebsiteController@category');
 
 //Route::get('/websites/{name?}', function($name) {
