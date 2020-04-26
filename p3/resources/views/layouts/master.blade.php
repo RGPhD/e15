@@ -26,13 +26,16 @@
             <ul>
                 <li><a href='/'>Home</a></li>
                 <li><a href='/websites'>All Websites</a></li>
-                <li><a href='/review-websites'>Review Websites</a></li>
                 <li><a href='/contact'>Contact Us</a></li>
-            <!-- Notes to myself: add review view -->
-            <!--<li><a href='/login'>Login</a></li>-->
+
+                @if(Auth::user())
+                <li><a href='/review-websites'>Review Websites</a></li>
+                @endif
+                
+            <!-- Notes to myself -->
                 <li>
             @if(!Auth::user())
-                <a href='/login'>Login</a>
+                <a href='/login'>Login to Review Websites</a>
             @else
                 <form method='POST' id='logout' action='/logout'>
                     {{ csrf_field() }}
