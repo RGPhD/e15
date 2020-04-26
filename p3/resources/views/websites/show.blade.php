@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('title')
+   {{ $website->name }}
+@endsection
+
 @section('name')
 {{ $website ? $website->name : '$website not found' }}
 @endsection
@@ -11,7 +15,7 @@
 @else
 
 <h2>Website Name: {{ $website->name }}</h2>
-<img class='cover' src='{{ $website->website_image }}' alt='Cover photo for {{ $website->name }}'>
+<img id='image' src='{{ $website->website_image }}' alt='Cover photo for {{ $website->name }}'>
 <p></p>
     <p>Website organization: {{ $website->organization }}</p>
     <p>Website category: {{ $website->category }}</p>
@@ -19,9 +23,7 @@
     <p>Visit Website: <a href='{{ $website->website_url }}'>{{ $website->website_url }}</a></p>
     <p>Latest Website Review: "{{ $website->review }}"</p>
 
-<ul class='websiteActions'>
-    <li><a href='/websites/{{ $website->slug }}/edit'><i class="fa fa-edit"></i> Review This Website</a>
-</ul>
+<p><a href='/websites/{{ $website->slug }}/edit' class="edit"> --> Review This Website</a></p>
 
 @endif
 

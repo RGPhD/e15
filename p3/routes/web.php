@@ -33,7 +33,9 @@ Route::get('/websites/category', 'WebsiteController@category');
 Route::get('/websites/{name}', 'WebsiteController@show');
 
 # Review a website
-Route::get('/websites/{slug}/edit', 'WebsiteController@edit');
+Route::get('/websites/{slug}/edit', [
+    'middleware' => 'auth',
+    'uses' =>'WebsiteController@edit']);
 Route::put('/websites/{slug}', 'WebsiteController@update');
 # put or get to Review and update a website
 
