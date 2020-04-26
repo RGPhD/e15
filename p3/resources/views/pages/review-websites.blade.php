@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Websites Categories
+    Review Websites
 @endsection
 
 @section('head')

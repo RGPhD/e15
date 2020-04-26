@@ -85,8 +85,6 @@ public function index()
         $website->review = $request->review;
         $website->save();
 
-      /*   return 'Your review was saved'; */
-
        return redirect('/websites/'.$slug.'/edit')->with([
             'flash-alert' => 'Your review was saved.'
         ]);       

@@ -20,7 +20,7 @@
     <p>Website organization: {{ $website->organization }}</p>
     <p>Website category: {{ $website->category }}</p>
     <p>Website summary: {{ $website->summary }}</p>
-    <p>Visit Website: <a href='{{ $website->website_url }}'>{{ $website->website_url }}</a></p>
+    <p>Visit Website: <a href='{{ $website->website_url }}' target='_blank'>{{ $website->website_url }}</a></p>
     <p>Latest Website Review: "{{ $website->review }}"</p>
 
 <p><a href='/websites/{{ $website->slug }}/edit' class="edit"> --> Review This Website</a></p>
