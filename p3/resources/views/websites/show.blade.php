@@ -15,13 +15,13 @@
 @else
 
 <h2>Website Name: {{ $website->name }}</h2>
-<img id='image' src='{{ $website->website_image }}' alt='Cover photo for {{ $website->name }}'>
+<img id='image' src='{{ $website->website_image }}' alt='Image for {{ $website->name }}'>
 <p></p>
     <p>Website organization: {{ $website->organization }}</p>
     <p>Website category: {{ $website->category }}</p>
     <p>Website summary: {{ $website->summary }}</p>
     <p>Visit Website: <a href='{{ $website->website_url }}' target='_blank'>{{ $website->website_url }}</a></p>
-    <p>Latest Website Review: "{{ $website->review }}"</p>
+    <p>Latest Website Review: "{{ $website->review }}" ...  {{ $userName }}</p>
 
 <p><a href='/websites/{{ $website->slug }}/edit' class="edit"> --> Review This Website</a></p>
 

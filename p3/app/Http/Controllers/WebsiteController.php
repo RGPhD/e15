@@ -36,13 +36,16 @@ public function index()
   //  ]);
     
   //  }
-  public function show($slug)
+  public function show(Request $request, $slug)
     {
         $website = Website::where('slug', '=', $slug)->first();
 
+        $user = $request->user();
+
         return view('websites.show')->with([
+            'userName' => $user->name ?? null,
             'website' => $website,
-            'slug' => $slug,
+            'slug' => $slug
         ]);
     }
 

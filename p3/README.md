@@ -5,6 +5,7 @@
 ## Feature summary
 + Website visitors can register/create an account and login or view the public pages of websites without registering or logging in.
 + Registered users can login to create and update reviews for one, many and or all of COVID-19 websites.
++ Registered users can login to view the author of reviews for one, many and or all of COVID-19 websites (website visitors can't see the author).
 + The home page features:
   +  A menu for guests with HOME, ALL WEBSITES, CONTACT US and LOGIN TO REVIEW WEBSITES links.
   +  A menu for logged in registered users with HOME, ALL WEBSITES, CONTACT US, REVIEW WEBSITES and LOGOUT links.
