@@ -23,7 +23,7 @@
     <p>Visit Website: <a href='{{ $website->website_url }}' target='_blank'>{{ $website->website_url }}</a></p>
     <p>Latest Website Review: "{{ $website->review }}" ...  </p>
 
-<p><a href='/websites/{{ $website->slug }}/edit' class="edit"> --> Please Review This Website {{ $userName }}.</a></p>
+<p><a href='/websites/{{ $website->slug }}/edit' class="edit"> -->Please Review This Website {{ $userName }}--></a></p>
 
 @endif
 
