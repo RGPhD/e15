@@ -36,4 +36,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function websites() {
+        return $this->belongsToMany('App\Website')
+            ->withTimestamps() # Added to have Eloquent update the created_at/updated_at columns
+            ->withPivot('my_review'); 
+    }
 }

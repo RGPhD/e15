@@ -8,7 +8,7 @@
 + During the past year at Harvard University Extension School, I have encountered many Cascading Style Sheets (CSS) methodologies for laying out webpages and online eLearning course sites, including floats, tables, positioning, inline-block, CSS columns, Flexbox, and CSS Grid.  The purpose of this set of notes is to select three of these CSS methodologies and then compare and contrast each of these CSS methods.  I will also present an examination, analysis and reflection of why one of the methodologies is the best selection for responsive design and responsive eLearning design.
 
 ## Separation of Concerns for CSS Methodologies
-+ Before selecting a CSS methodology for your eLearning website, you need to know how to follow Separation of Concerns.  “In computer science, Separation of Concerns (SoC) refers to the practice of breaking a program into distinct sections, each with their own concern/responsibility. Benefits: *Provides a logical organizational structure. *Easier to maintain/More flexible for collaboration amongst a team of developers. *Makes aspects of the program modular and thus reusable. Example SoC: HTML & CSS” (Buck, 2020).  Whichever CSS methodology you ultimately decide to use, it is highly recommended to utilize SoC.
++ Before selecting a CSS methodology for your eLearning website, you need to know how to follow Separation of Concerns.  “In computer science, Separation of Concerns (SoC) refers to the practice of breaking a program into distinct sections, each with their own concern/responsibility. Benefits: *Provides a logical organizational structure. *Easier to maintain/More flexible for collaboration amongst a team of developers. *Makes aspects of the program modular and thus reusable. Example SoC: HTML & CSS” (Buck, 2020).  Whichever CSS methodology you ultimately decide to use, it is highly recommended you utilize SoC.
 
 # Floats, Flexbox and CSS Grid for Online Courses
 + I have selected floats, Flexbox and CSS Grid for comparison and critical review.  In order to understand these and any CSS layout methodologies, online course designers, new web designers, programmers and engineers alike must of course understand both the new border box model and the old content box model.
@@ -20,13 +20,13 @@
 
 ## Floats
 + I will start with one of the oldest CSS methodologies, which is float-based grid systems, the website design and mobile front-end design industry's standard (Kramer, 2020).
-+ Floats are a CSS positioning property that is often used for wrapping text around images.  Wrapping text is one of the positive characteristics of a float layout, in addition to floating elements remaining a part of the regular flow of an eLearning course website or webpage.
++ Floats are a CSS positioning property that is often used for wrapping text around images.  Wrapping text is one of the positive characteristics of a float layout.  In addition, floating elements remain a part of the regular flow of an eLearning course webpage.
 + While floats are still being used for a lot of layout, there are much stronger tools in modern web design for creating layout on webpages.  Specifically, I refer to CSS Grid (aka ‘grid’) and Flexbox (Coyier, 2019).
 
 ## Flexbox
 + Flexbox provides a more effective way to code the layout and distribute space among elements in a container, even when their size is constantly changing.  Flexbox's remarkable alignment and ordering features can “juice up our grid, taking us places that simply weren't possible with floats” (Kramer, 2018).  
 + A big advantage of Flexbox besides its CSS aligning features is that it is supported in all modern browsers and most mobile platforms.  This is of import for eLearning because many online students often switch in between devices.
-+ As a brand new full-stack web developer, I have found Flexbox easy to code for parts of my webpages.  However, it is not as fault tolerant as CSS Grid when trying to code an entire course site page.
++ As a brand new full-stack web developer, I have found Flexbox easy to code for parts of my webpages.  However, it is not as fault tolerant as CSS Grid when trying to code an entire course webpage.
 
 ## CSS Grid
 + CSS Grid is the most robust layout system in web design.  A course website author can iterate code to align and nest multiple webpage elements into columns and rows.  CSS Grid is the newest layout spec available in the latest browsers (Kramer, 2020).
