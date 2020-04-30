@@ -4,7 +4,7 @@
 
     <h2>Member Login</h2>
 
-    Don’t have an account? <a href='/register'> Register Here to become a Member!</a>
+    Don’t have an account? <a href='/register'> Register Here to become a Member to save your favorite Websites, Review your favorite Website or Review a website Anonymously!</a>
 
     <form method='POST' action='{{ route('login') }}'>
 
