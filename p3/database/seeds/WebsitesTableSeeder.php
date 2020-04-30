@@ -12,8 +12,7 @@ class WebsitesTableSeeder extends Seeder
      */
     public function run()
     {
-        // add my rows data
-        # Add a individual website
+        # Add individual websites with rows data
         $website = new Website();
         $website->name = 'World Health Organization Coronavirus';
         $website->website_url = 'https://www.who.int/health-topics/coronavirus';
@@ -22,6 +21,7 @@ class WebsitesTableSeeder extends Seeder
         $website->organization = 'WHO';
         $website->website_image = 'https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg';
         $website->summary = "The World Health Organization’s official website covering all health related information on the Coronavirus disease (COVID-19) outbreak.  The site includes up to date coverage of the Overview, Prevention, and Symptoms of COVID-19.";
+        $website->review = "A great health website for Q & A on coronaviruses (COVID-19)!";
         $website->save();
     
         $website = new Website();
@@ -32,6 +32,7 @@ class WebsitesTableSeeder extends Seeder
         $website->organization = 'Harvard Medical School: Harvard Health Publishing';
         $website->website_image = 'https://www.health.harvard.edu/images/logo-harvard_health-full-v2-@2x.png';
         $website->summary = "Harvard Medical School: Harvard Health Publishing’s answers to common questions all of us are asking about the coronavirus. New questions and updated answers with reliable information featuring experts discussing coronavirus and COVID-19.";
+        $website->review = "Very helpful and reliable Harvard Health website!";
         $website->save();
 
     $website = new Website();
@@ -42,6 +43,7 @@ class WebsitesTableSeeder extends Seeder
     $website->organization = 'Health Affairs';
     $website->website_image = 'https://www.healthaffairs.org/pb-assets/images/hubs/covid-19/COVID19_feature_image-1586455267470.png';
     $website->summary = 'A collection of COVID-19 (Coronavirus Disease) content from Health Affairs journal articles and additional resources provides timely commentary, expert analysis, and policy proposals.';
+    $website->review = "Interesting website with helpful health information.";
     $website->save();
 
     $website = new Website();
@@ -63,6 +65,7 @@ class WebsitesTableSeeder extends Seeder
     $website->organization = 'Consumer Financial Protection Bureau';
     $website->website_image = 'https://www.consumerfinance.gov/static/img/logo_237x50.c7c2ba6c929f.png';
     $website->summary = 'An official website of the United States government committed to providing consumers with up-to-date information and resources to protect and manage their finances during this difficult time as the coronavirus situation evolves.';
+    $website->review = "If you are facing financial difficulties as a result of the COVID-9 pandemic, this website has resources to help you protect and manage your finances.";
     $website->save();
 
     $website = new Website();
@@ -73,9 +76,7 @@ class WebsitesTableSeeder extends Seeder
     $website->organization = 'IRS';
     $website->website_image = 'https://www.irs.gov/themes/custom/pup_base/images/irs_horiz-01.svg';
     $website->summary = 'An official website of the United States government explaining IRS tax help for taxpayers, businesses, tax-exempt organizations and others – including health plans – affected by coronavirus (COVID-19).';
+    $website->review = "Get answers to Economic Impact Payments questions and the latest Updates on Coronavirus Tax Relief on this very busy website.";
     $website->save();
-
-      # enter more websites
-      # Or, pull in the data from a websites.json file to add a bunch of websites
     }
 }

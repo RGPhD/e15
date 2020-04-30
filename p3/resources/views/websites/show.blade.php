@@ -21,10 +21,14 @@
     <p>Website category: {{ $website->category }}</p>
     <p>Website summary: {{ $website->summary }}</p>
     <p>Visit Website: <a href='{{ $website->website_url }}' target='_blank'>{{ $website->website_url }}</a></p>
-    <p>Latest Website Review: "{{ $website->review }}" ...  </p>
 
-<p><a href='/websites/{{ $website->slug }}/edit' class="edit"> -->Please Review This Website {{ $userName }}--></a></p>
+<h2>Website Reviews</h2>
 
+    <p>Coronavirus Websites' Official Latest Review: "{{ $website->review }}"  </p>
+
+<p><a href='/members/{{ $website->slug }}/add' class="edit"> -->Add this Website to your Favorites and save your Review {{ $userName }}--></a></p>
+<p><a href='/websites/{{ $website->slug }}/edit' class="edit"> -->Review this Website Anonymously {{ $userName }}--></a></p>
+<p><a href='/members' class="edit"> -->See Your Website Reviews {{ $userName }}--></a></p>
 @endif
 
 @endsection

@@ -1,9 +1,9 @@
 @extends('layouts.master')
 
 @section('content')
-    <h2>Register</h2>
+    <h2>Register to Become a Member of our Online Community</h2>
 
-    Already have an account? <a href='/login'>Login here...</a>
+    Already have an account? <a href='/login'> Members Login Here!</a>
 
     <form method='POST' action='{{ route('register') }}'>
         {{ csrf_field() }}

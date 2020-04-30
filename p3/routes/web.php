@@ -41,6 +41,20 @@ Route::get('/websites/{slug}/edit', [
 Route::put('/websites/{slug}', 'WebsiteController@update');
 # put or get to Review and update a website
 
+# Members
+Route::get('/members', [
+    'middleware' => 'auth',
+    'uses' =>'MemberController@show']);
+
+Route::get('/members/{slug?}/add', [
+    'middleware' => 'auth',
+    'uses' =>'MemberController@add']);
+
+Route::post('/members/{slug?}/add', [
+        'middleware' => 'auth',
+        'uses' =>'MemberController@save']);
+
+
 Route::get('/debug', function () {
 
     $debug = [

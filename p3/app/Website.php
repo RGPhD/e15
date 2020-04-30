@@ -12,4 +12,9 @@ class Website extends Model
         ->withTimestamps() # Added to have Eloquent update the created_at/updated_at
         ->withPivot('my_review');
      }
+
+     public static function findBySlug($slug)
+    {
+        return self::where('slug', '=', $slug)->first();
+    }
 }

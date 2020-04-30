@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <h2>Login</h2>
+    <h2>Member Login</h2>
 
-    Don’t have an account? <a href='/register'>Register here...</a>
+    Don’t have an account? <a href='/register'> Register Here to become a Member!</a>
 
     <form method='POST' action='{{ route('login') }}'>
 
