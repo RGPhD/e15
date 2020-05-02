@@ -23,6 +23,6 @@
 </p>
 
 <p><a href='{{$book['purchase_url']}}'>Purchase...</a></p>
-<p><a href='#'>Edit book on your list.</a></p>
-<p><a href='#'>Remove from your list!</a></p>
+<p><a href='#'>Edit Book on your list.</a></p>
+<p><a href='#'>Remove Book from your list!</a></p>
 @endsection

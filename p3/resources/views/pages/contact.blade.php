@@ -21,7 +21,7 @@
 
           <label>
             Leave Your Message Below
-            <textarea id="comments" name='comments' value='comments'></textarea>
+            <textarea id="comments" name='comments' value='comments' placeholder="Enter your comments."></textarea>
           </label>
           <button type="submit" class='btn btn-primary' title="Click here to submit.">Click to Submit</button>
         </fieldset>

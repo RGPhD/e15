@@ -70,7 +70,6 @@ public function index()
             /* 'slug' => 'required|unique:websites,slug,'.$website->id.'|alpha_dash',
              'name' => 'required',
              'organization' => 'required',
-             'published_year' => 'required|digits:4',
              'website_image' => 'url',
              'website_url' => 'url',
              'category' => 'required',*/
@@ -96,30 +95,12 @@ public function index()
     public function category()
     {
         $websites = Website::orderBy('category')->get();
-
-    # Query database for new websites
-    //$newwebsite$websites = website$website::orderByDesc('created_at')->orderBy('title')->limit(3)->get();
-
-    # Or, filter out the new website$websites from the existing $websites Collection
-    //$newwebsite$websites = $websites->sortByDesc('created_at')->take(3);
     
     return view('websites.category')->with([
         'websites' => $websites,
-        //'newWebsites' => $newWebsites
+        //'newWebsites' => $newWebsites if I want to let Users add new
     ]);
 
     }
-
-    /**
-     * GET /filter/{$category}/{subcategory?}
-     * Example demonstrating multiple parameters
-     * Not a feature we're actually building, so commenting out.  I want to create category feature, but not subcategory for my p3 unique feature.
-     **/
-    /*
-    public function category($category)
-    {
-        $output = 'Here are all the website$websites under the category '.$category;
-        }
-    **/
         
-    }
+}

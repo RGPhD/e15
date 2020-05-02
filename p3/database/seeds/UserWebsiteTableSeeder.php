@@ -23,7 +23,7 @@ class UserWebsiteTableSeeder extends Seeder
 
     foreach ($websites as $name) {
         $website = Website::where('name', '=', $name)->first();
-        $user->websites()->save($website, ['my_review' => 'I found the following website very informative on COVID-19 '. $name]);
+        $user->websites()->save($website, ['my_review' => 'I found the following website very informative on COVID-19.']);
     }
     
 }

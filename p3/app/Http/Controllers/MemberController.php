@@ -21,7 +21,7 @@ class MemberController extends Controller
     }
 
     public function save(Request $request, $slug) {
-        # maybe validate website data
+        # can validate website data if I prefer
         $website = Website::findbySlug($slug);
 
         $request->user()->websites()->save($website, ['my_review' => $request->my_review]);

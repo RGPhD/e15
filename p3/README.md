@@ -14,20 +14,19 @@
 + Website visitors or logged in registered users can send comments to the website (directly from the contact us page) via a contact form that is GET by default and displays comments in the browser.
 + Logged in registered users receive a personal message on the individual website pages to review the website.
 + Website visitors or logged in registered users can share the functioning tinyurl listed on the contact us page.
++ Logged in users can save and see their favorite websites and their website reviews.
 
 ## TBD
-+ Logged in users can see their website reviews and other users reviews of websites.
 + There's a file uploader that's used to upload images for each website.
 + User's can toggle whether websites in their collection are public or private.
 + Each user has a public profile page which shows their email, name and a list of public websites in their collection.
 + Each user has their own account page where they can edit their name, email, password.
-+ Users can clone websites from another user's public collection into their collection, in their collection (name, summary, category).
++ Users can clone websites from another user's public collection into their collection, in their collection (name, review, summary, category).
   
 ## Database summary TBD
-+ My application has 3 tables in total (`users`, `websites`, `categories`, `organization`, `review`)
-+ There's a many-to-many relationship between `websites` and `categories`
++ My application has 4 tables in total (`users`, `websites`, `user_website`, `pivot`)
++ There's a many-to-many relationship between `websites` and `user_website`
 + There's a one-to-many relationship between `websites` and `users`
-+ There's a one-to-many relationship between `websites` and `review`
 
 ## Outside resources
 + I Practiced my PHP logic at <https://paiza.io/users/show/45209>
