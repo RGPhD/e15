@@ -9,7 +9,7 @@ Add Website to Review!
 @endsection
 
 @section('content')
-<h2>Add The {{ $website->name }} Website to Review</h2>
+<h2>Add The {{ $website->name }} Website to your Favorites</h2>
 
 <form method='POST' action='/members/{{ $website->slug }}/add'>
         <div class='details'>**Required**</div>

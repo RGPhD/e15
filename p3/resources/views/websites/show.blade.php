@@ -28,7 +28,7 @@
 
 <p><a href='/members/{{ $website->slug }}/add' class="edit"> -->Add this Website to your Favorites and save your Review {{ $userName }}--></a></p>
 <p><a href='/websites/{{ $website->slug }}/edit' class="edit"> -->Review this Website Anonymously {{ $userName }}--></a></p>
-<p><a href='/members' class="edit"> -->See Your Website Reviews {{ $userName }}--></a></p>
+<p><a href='/members' class="edit"> -->See Your Website Favorites and saved Reviews {{ $userName }}--></a></p>
 @endif
 
 @endsection
