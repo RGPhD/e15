@@ -31,11 +31,10 @@
                 @if(Auth::user())
                 <li><a href='/review-websites'>Review Websites</a></li>
                 @endif
-                
-            <!-- Notes to myself -->
+        
                 <li>
             @if(!Auth::user())
-                <a href='/login'>Login to Review Websites</a>
+                <a href='/login' dusk='login'>Login to Review Websites</a>
             @else
                 <form method='POST' id='logout' action='/logout'>
                     {{ csrf_field() }}

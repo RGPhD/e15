@@ -8,12 +8,11 @@ use Tests\DuskTestCase;
 
 class ExampleTest extends DuskTestCase
 {
-    /**
-     * A basic browser test example.
-     *
+    /*
+     * A basic browser tests
      * @return void
      */
-    public function testBasicExample()
+    public function testBasicHomepageInBrowser()
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
