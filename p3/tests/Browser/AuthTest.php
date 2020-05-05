@@ -9,8 +9,7 @@ use App\User;
 
 class AuthTest extends DuskTestCase
 {
-    /*
-     * Dusk tests
+    /* Dusk tests
      * @return void
      */
     public function testRegistration()

@@ -8,8 +8,7 @@ use Tests\DuskTestCase;
 
 class ExampleTest extends DuskTestCase
 {
-    /*
-     * A basic browser tests
+    /* My Basic browser tests
      * @return void
      */
     public function testBasicHomepageInBrowser()

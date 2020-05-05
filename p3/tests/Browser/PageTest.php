@@ -8,9 +8,7 @@ use Tests\DuskTestCase;
 
 class PageTest extends DuskTestCase
 {
-    /**
-     * A Dusk test example.
-     *
+    /* My Page Dusk tests.
      * @return void
      */
     public function testHomepage()
