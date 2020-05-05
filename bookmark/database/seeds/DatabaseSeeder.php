@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(BooksTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
        //remove backslashes if I create this seeder//$this->call(UsersTableSeeder::class);
     }
 }

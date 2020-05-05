@@ -29,6 +29,5 @@ class WebsiteTest extends DuskTestCase
 
             $browser->click('#websites');
         });
-    }
- # My website dusk tests   
+    }  
 }

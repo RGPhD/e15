@@ -24,8 +24,17 @@
                 <li><a href='/support'>Support</a></li>
                 <li><a href='/practice'>Practice</a></li>
                 <li><a href='/books'>Add a Book</a></li>
-                <li><a href='/login'>Login</a></li>
                 <li><a href='/debug'>Debug</a></li>
+                <li>
+            @if(!Auth::user())
+                <a href='/login'>Login</a>
+            @else
+                <form method='POST' id='logout' action='/logout'>
+                    {{ csrf_field() }}
+                    <a href='#' onClick='document.getElementById("logout").submit();'>Logout</a>
+                </form>
+            @endif
+        </li>
             </ul>
         </nav>
     </header>

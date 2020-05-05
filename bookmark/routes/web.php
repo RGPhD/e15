@@ -81,3 +81,4 @@ Route::get('/list', 'BookController@list');
 # This was an example route to show multiple parameters;
 # Not a feature we're actually building, so I'm commenting out
 # Route::get('/filter/{category}/{subcategory?}', 'BookController@filter');
+Auth::routes();
