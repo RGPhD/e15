@@ -12,7 +12,7 @@
 + Logged in registered users can see their website favorites and saved website reviews on their member page.
 + Logged in registered users receive a personal message with their name on all of the individual website slug pages.
 + The home page features:
-  +  A menu for guests with HOME, ALL WEBSITES, CONTACT US and LOGIN TO REVIEW WEBSITES links.
+  +  A menu for guests with HOME, ALL WEBSITES, CONTACT US and LOGIN links.
   +  A menu for logged in registered users with HOME, ALL WEBSITES, CONTACT US, REVIEW WEBSITES and LOGOUT links.
   + A link to view/read all websites (with URLs) to each individual website.
   + A link to view/read a list of websites by category (with URLs) to each individual website.
@@ -33,4 +33,4 @@
 
 ## Notes for instructor
 + I used the BootstrapCDN compiled CSS for the first time and I really like the styling, although I did not apply all of it.
-+ I hard coded, migrated and seeded user Jill's favorite websites and reviews. While I added user Jamal's favorite websites and reviews in the browser as a visiting logged and registered user.
++ I hard coded, migrated and seeded user Jill's favorite websites and reviews. While I added user Jamal's favorite websites and reviews in the browser as a registered and logged in user.
