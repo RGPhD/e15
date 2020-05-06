@@ -25,4 +25,5 @@
 
         <button type='submit' dusk='register-button' class='btn btn-primary'>Register</button>
     </form>
+    <br>
 @endsection

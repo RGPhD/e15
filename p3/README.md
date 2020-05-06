@@ -20,16 +20,17 @@
 + Website visitors or logged in registered users can send comments to the website (directly from the contact us page) via a contact form that is GET by default and displays comments in the browser then redirects to the email server.
 + Website visitors or logged in registered users can share the functioning tinyurl listed on the contact us page.
   
-## Database summary TBD
-+ My application has 4 tables in total (`users`, `websites`, `user_website`, `pivot`)
+## Database summary
++ My application has 3 tables in total (`users`, `websites`, `user_website`)
 + There's a many-to-many relationship between `websites` and `user_website`
-+ There's a one-to-many relationship between `websites` and `users`
++ There's a one-to-many relationship between `user_website` and `users`
 
 ## Outside resources
 + I Practiced my PHP logic at <https://paiza.io/users/show/45209>
 + I Practiced my HTML & CSS at <https://codepen.io/DrRobelynGarcia>.
-
-## Notes for instructor
 + I Validated my HTML at <https://validator.w3.org>.
 + I Validated my CSS at <https://jigsaw.w3.org/css-validator>.
+
+## Notes for instructor
 + I used the BootstrapCDN compiled CSS for the first time and I really like the styling, although I did not apply all of it.
++ I hard coded, migrated and seeded user Jill's favorite websites and reviews. While I added user Jamal's favorite websites and reviews in the browser as a visiting logged and registered user.

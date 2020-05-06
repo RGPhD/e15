@@ -50,10 +50,12 @@
         @yield('content')
     </section>
 
-    <br>
     <footer>
-        &copy;Coronavirus Websites 2020
-        
+      
+      <strong><a href="https://hesweb.dev/e15" target="_blank" title="Click to visit Harvard University Extension School: CSCI E-15 Web Server Frameworks with Laravel/PHP">Harvard University Extension: E-15 Web Server Frameworks with Laravel/PHP
+        </a></strong>
+      <br>
+      &copy;Coronavirus Websites {{ date('Y') }}
     </footer>
 
 </body>
