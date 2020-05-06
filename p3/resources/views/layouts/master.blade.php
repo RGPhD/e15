@@ -34,7 +34,7 @@
         
                 <li>
             @if(!Auth::user())
-                <a href='/login' dusk='login'>Login to Review Websites</a>
+                <a href='/login' dusk='login'>Member Login</a>
             @else
                 <form method='POST' id='logout' action='/logout'>
                     {{ csrf_field() }}
