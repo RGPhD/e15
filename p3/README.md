@@ -3,25 +3,22 @@
 + Production URL: <http://e15p3.robelyngarcia.me>
 
 ## Feature summary
-+ Website visitors can register/create an account and login or view the public pages of websites without registering or logging in.
-+ Registered users can login to create and update reviews for one, many and or all of COVID-19 websites.
++ Website visitors can view the public pages of websites without registering or logging in.
++ Website visitors can register/create an account to become a member of the online community.
++ Registered users can login to save one, many and or all of Coronavirus websites to their favorites page.
++ Registered users can login to create private reviews for one, many and or all of Coronavirus websites in their collection.
++ Registered users can login to create anonymous reviews for one, many and or all of Coronavirus websites in and or not in their collection.
++ Each registered user has a member collection page which shows their favorite websites in their collection.
++ Logged in registered users can see their website favorites and saved website reviews on their member page.
++ Logged in registered users receive a personal message with their name on all of the individual website slug pages.
 + The home page features:
   +  A menu for guests with HOME, ALL WEBSITES, CONTACT US and LOGIN TO REVIEW WEBSITES links.
   +  A menu for logged in registered users with HOME, ALL WEBSITES, CONTACT US, REVIEW WEBSITES and LOGOUT links.
   + A link to view/read all websites (with URLs) to each individual website.
   + A link to view/read a list of websites by category (with URLs) to each individual website.
-+ Website visitors or logged in registered users can email the website (directly from the contact us page) for more information to a real email set up with an automatic email response.
-+ Website visitors or logged in registered users can send comments to the website (directly from the contact us page) via a contact form that is GET by default and displays comments in the browser.
-+ Logged in registered users receive a personal message on the individual website pages to review the website.
++ Website visitors or logged in registered users can email the website (directly from the contact us page) to a real email set up to the direct email URL and Contact Form.
++ Website visitors or logged in registered users can send comments to the website (directly from the contact us page) via a contact form that is GET by default and displays comments in the browser then redirects to the email server.
 + Website visitors or logged in registered users can share the functioning tinyurl listed on the contact us page.
-+ Logged in users can save and see their favorite websites and their website reviews.
-
-## TBD
-+ There's a file uploader that's used to upload images for each website.
-+ User's can toggle whether websites in their collection are public or private.
-+ Each user has a public profile page which shows their email, name and a list of public websites in their collection.
-+ Each user has their own account page where they can edit their name, email, password.
-+ Users can clone websites from another user's public collection into their collection, in their collection (name, review, summary, category).
   
 ## Database summary TBD
 + My application has 4 tables in total (`users`, `websites`, `user_website`, `pivot`)

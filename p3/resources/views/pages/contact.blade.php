@@ -10,7 +10,7 @@
 
 @section('content')
 <h2>Contact Us</h2>
-<form>
+<form action='mailto:CoronavirusWebsites@gmail.com' target='blank'>
         <fieldset>
           <legend>Contact Coronavirus Websites</legend>
           <label for="name">Your Name </label>
