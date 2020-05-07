@@ -20,16 +20,17 @@ class AuthTest extends DuskTestCase
         });
     }
 
-    public function testFailedRegistration()
+    public function testSuccesfulLogin()
     {
         $this->browse(function (Browser $browser) {
-            $browser->visit('/register')
-            ->type('name', 'Jill Harvard')
+
+            $browser->logout()
+                    ->visit('/login')
                     ->type('email', 'jill@harvard.edu')
                     ->type('password', 'helloworld')
-                    ->type('password_confirmation', 'helloworld')
-                    ->click('@register-button')
-                    ->assertSee('The email has already been taken.');
+                    ->assertSee('Login');
         });
     }
+
+
 }

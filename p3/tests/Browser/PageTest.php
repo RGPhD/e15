@@ -32,11 +32,20 @@ class PageTest extends DuskTestCase
               
         });
     }
+
     public function testContactPage()
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/contact')
                     ->assertSee('Contact Coronavirus Websites');
+        });
+    }
+
+    public function testLoginPage()
+    {
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/login')
+                    ->assertSee('Member Login');
         });
     }
 
