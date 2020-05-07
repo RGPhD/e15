@@ -21,7 +21,7 @@
 
     <header>
         <h1>Coronavirus Websites</h1>
-        <a href='/'><img src='/images/free.cdc.covid19.image.tif' id='image' alt='CDC Covid-19 Image'></a>
+        <a href='/'><img src='/images/free.cdc.covid19.jpg' id='image' alt='CDC Covid-19 Image'></a>
         <nav>
             <ul>
                 <li><a href='/'>Home</a></li>
