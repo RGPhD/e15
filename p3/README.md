@@ -11,6 +11,7 @@
 + Each registered user has a member collection page which shows their favorite websites in their collection.
 + Logged in registered users can see their website favorites and saved website reviews on their member page.
 + Logged in registered users receive a personal message with their name on all of the individual website slug pages.
++ Logged in registered users can see all other online community members on the community page.  Only viewable by members logged in from the link on the members page.
 + The home page features:
   +  A menu for guests with HOME, ALL WEBSITES, CONTACT US and LOGIN links.
   +  A menu for logged in registered users with HOME, ALL WEBSITES, CONTACT US, REVIEW WEBSITES and LOGOUT links.
@@ -21,14 +22,15 @@
 + Website visitors or logged in registered users can share the functioning tinyurl listed on the contact us page.
   
 ## Database summary
-+ My application has 3 tables in total (`users`, `websites`, `user_website`)
-+ There's a many-to-many relationship between `websites` and `user_website`
-+ There's a one-to-many relationship between `user_website` and `users`
++ My application has 3 tables in total (`users`, `websites`, `user_website`) (`user_website` is the Pivot table).
++ There's a many-to-many relationship between `websites` and `user_website`.
++ There's a one-to-many relationship between `user_website` and `users`.
++ There's a one-to-many relationship between `websites` and `user_website`.
 
 ## Outside resources
-+ I Practiced my PHP logic at <https://paiza.io/users/show/45209>
++ I Practiced my PHP logic at <https://paiza.io/users/show/45209>.
 + I Practiced my HTML & CSS at <https://codepen.io/DrRobelynGarcia>.
-+ I Validated my HTML at <https://validator.w3.org>.
++ I Validated my HTML at <https://validator.w3.org>. The only error is “Attribute dusk not allowed on element a at this point”, which is also on the http://bookmark.hesweb.xyz.
 + I Validated my CSS at <https://jigsaw.w3.org/css-validator>.
 
 ## Notes for instructor
