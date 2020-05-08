@@ -1,8 +1,12 @@
-.users {
+#users {
     margin-left: 0.5rem;
 }
 
-#username {
+.username {
     margin-left: 0.5rem;
     color: crimson;
+}
+
+.useremail {
+    margin-left: 0.5rem;
 }
