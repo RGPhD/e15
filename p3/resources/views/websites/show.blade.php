@@ -15,7 +15,7 @@
 @else
 
 <h2>Website Name: {{ $website->name }}</h2>
-<img id='image' src='{{ $website->website_image }}' alt='Image for {{ $website->name }}'>
+<img class='image' src='{{ $website->website_image }}' alt='Image for {{ $website->name }}'>
 <p></p>
     <p>Website organization: {{ $website->organization }}</p>
     <p>Website category: {{ $website->category }}</p>
