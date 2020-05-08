@@ -29,5 +29,5 @@
 
 <h4>Or Email us directly at: <a href="mailto:CoronavirusWebsites@gmail.com" target="_blank" >CoronavirusWebsites@gmail.com</a></h4>
 
-<p>Share our Tinyurl: <a href='http://tinyurl.com/coronaviruswebsites' target='_blank'>http://tinyurl.com/coronaviruswebsites</p>
+<p>Share our Tinyurl: <a href='http://tinyurl.com/coronaviruswebsites' target='_blank'>http://tinyurl.com/coronaviruswebsites</a></p>
 @endsection
