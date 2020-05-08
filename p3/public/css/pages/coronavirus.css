@@ -8,7 +8,8 @@
 #image {
     width: 310px;
     display: block;
-}
+    margin-bottom: 55px;
+} /* changed from id so I can use it more than once--> */
 
 h1 {
     color: crimson;
