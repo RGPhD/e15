@@ -24,6 +24,5 @@ Review - {{ $website->name }}
 
         <button type='submit' class='btn btn-primary' value='Update'>Submit Your Website Review</button>
     </form>
-    <!--value='review' ????-->
 
 @endsection

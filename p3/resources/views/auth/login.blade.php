@@ -28,5 +28,10 @@
 
     </form>
     <br>
+    <hr>
+<h2>Connect with other Online Community Members!</h2>
+<ul>
+    <li><a href='/community'>View All of our Cornovirus Websites Members (Members Only)</a></li>
+</ul>
 
 @endsection

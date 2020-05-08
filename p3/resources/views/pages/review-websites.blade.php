@@ -24,9 +24,7 @@
         <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
         @endforeach
     </div>
-    @endif
-        
-
+    @endif     
     </div>
 
 @endsection

@@ -45,8 +45,27 @@ class ExampleTest extends DuskTestCase
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/websites/category')
-                    ->assertSee('Websites by Category');
+                    ->assertSee('Websites by Category')
+                    ->assertSee('CDC COVID-19')
+                    ->assertSee('Coronavirus Tax Relief and Economic Impact Payments')
+                    ->assertSee('Harvard Health Publishing Coronavirus Resource Center')
+                    ->assertSee('Health Affairs COVID-19')
+                    ->assertSee('Protecting your Finances during the Coronavirus Pandemic')
+                    ->assertSee('World Health Organization Coronavirus');
 
+        });
+    }
+
+    public function testAllWebsitesFeature()
+    {
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/websites')
+                    ->assertSee('CDC COVID-19')
+                    ->assertSee('Coronavirus Tax Relief and Economic Impact Payments')
+                    ->assertSee('Harvard Health Publishing Coronavirus Resource Center')
+                    ->assertSee('Health Affairs COVID-19')
+                    ->assertSee('Protecting your Finances during the Coronavirus Pandemic')
+                    ->assertSee('World Health Organization Coronavirus');   
         });
     }
 }

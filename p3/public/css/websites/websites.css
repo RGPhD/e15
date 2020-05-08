@@ -2,3 +2,16 @@
     width: 300px;
     margin-bottom: 40px;
 }
+
+#users {
+    margin-left: 0.5rem;
+}
+
+.username {
+    margin-left: 0.5rem;
+    color: crimson;
+}
+
+.useremail {
+    margin-left: 0.5rem;
+}

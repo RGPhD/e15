@@ -42,6 +42,11 @@ Route::get('/members/{slug?}/add', [
 Route::post('/members/{slug?}/add', [
         'middleware' => 'auth',
         'uses' =>'MemberController@save']);
+    
+# Show all users
+Route::get('/community', [
+        'middleware' => 'auth',
+        'uses' =>'PageController@community']);
 
 # My debug route; left it in for debugging
 Route::get('/debug', function () {

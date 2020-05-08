@@ -18,7 +18,7 @@
         @foreach($websites as $website)
         <a class='websites' href='/websites/{{ $website->slug }}'>
             <h3>{{ $website->name }}</h3>
-            <img class='image' src='{{ $website->website_image }}'></a>
+            <img class='image' src='{{ $website->website_image }}' alt='Image for {{ $website->name }}'></a>
         </a>
         @endforeach
     </div>

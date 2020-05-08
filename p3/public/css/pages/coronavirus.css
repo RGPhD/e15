@@ -17,7 +17,6 @@ h2 {
 }
 
 nav {
-    /*border-top: 1px solid #D3D3D3;*/
     border-bottom: 1px solid #C0C0C0;
     padding: 5px;
     margin-top: 10px;
@@ -69,6 +68,15 @@ a.active:hover {
     color: blue;
     font-weight: bold;
     font-size: 120%;
+}
+
+.users {
+    margin-left: 0.5rem;
+}
+
+#username {
+    margin-left: 0.5rem;
+    color: crimson;
 }
 
 footer {

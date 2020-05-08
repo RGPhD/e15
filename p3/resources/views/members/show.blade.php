@@ -33,11 +33,9 @@ Member Websites and Reviews
 
 @endif
 <hr>
-<h2>Select category of websites (Health and or Financial) or view them all!</h2>
-<h4>Select the Websites You Want To View or Review Below</h4>
+<h2>Connect with other Online Community Members!</h2>
 <ul>
-    <li><a href='/websites'>View All of our Recommended Cornovirus Websites</a></li>
-    <li><a href='/websites/category'>View Websites by Category (Health and or Financial)</a></li>
+    <li><a href='/community'>View All of our Cornovirus Websites Members (Members Only)</a></li>
 </ul>
 
 @endsection

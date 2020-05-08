@@ -9,9 +9,7 @@ use App\User;
 
 class AuthTest extends DuskTestCase
 {
-    /* Dusk tests
-     * @return void
-     */
+
     public function testRegistration()
     {
         $this->browse(function (Browser $browser) {
@@ -31,6 +29,5 @@ class AuthTest extends DuskTestCase
                     ->assertSee('Login');
         });
     }
-
 
 }

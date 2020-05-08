@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Website;
+use App\User;
 
 class PageController extends Controller
 {
@@ -24,5 +25,15 @@ class PageController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function community()
+{
+    $users = User::orderBy('name')->get();
+    
+    return view('pages.community')->with([
+        'users' => $users
+    ]);
+  
+ }
 
 }
