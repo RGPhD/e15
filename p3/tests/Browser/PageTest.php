@@ -17,7 +17,7 @@ class PageTest extends DuskTestCase
             $browser->visit('/')
                     ->assertSee('Coronavirus Websites');
 
-            $browser->click('#image');
+            $browser->click('@login');
         });
     }
 
@@ -27,7 +27,7 @@ class PageTest extends DuskTestCase
             $browser->visit('/')
                     ->assertSee('We are Coronavirus Websites');
 
-            $browser->assertVisible('#image');
+            $browser->assertVisible('@login');
             $browser->click('@login');
               
         });

@@ -29,5 +29,14 @@ class WebsiteTest extends DuskTestCase
 
             $browser->click('#websites');
         });
-    }  
+    }
+
+    public function testAddWebsite()
+    {
+        $this->browse(function (Browser $browser) {
+            $browser->visit('members/coronavirus-tax-relief/add')
+            ->assertSee('Add');
+        });
+    }
+
 }

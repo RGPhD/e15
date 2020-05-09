@@ -30,4 +30,15 @@ class AuthTest extends DuskTestCase
         });
     }
 
+    public function testCommunityMembers()
+    {
+        $this->browse(function (Browser $browser) {
+
+            $browser->visit('/community')
+                    ->type('email', 'jill@harvard.edu')
+                    ->type('password', 'helloworld')
+                    ->assertPresent('@login');
+        });
+    }
+
 }
