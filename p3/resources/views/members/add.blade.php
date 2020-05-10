@@ -15,7 +15,7 @@ Add Website to Review!
         <div class='details'></div>
         {{ csrf_field() }}
 
-        <label for='my_review'>Enter YOUR Review of THIS Website below:</label>
+        <label for='my_review'>Enter YOUR Review of THIS Website below:</label><!--I made this optional-->
         <textarea name='my_review' placeholder='Enter your webiste review here'>{{ old('my_review') }}</textarea>
 
         <input type='submit' class='btn btn-primary' value='Save Review & Add Website'>

@@ -2,35 +2,27 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-Web routes are loaded by the RouteServiceProvider within a group which contains the "web" middleware group.
-*/
+/* My p3 Web routes */
 
 Route::get('/', 'PageController@welcome');
-
-# Query the database for a website and return a view to show each website & include website data
-
-# Show all websites
 Route::get('/websites', 'WebsiteController@index');
-# or Route::get('/review', 'WebsiteController@review');
 Route::get('/contact', 'PageController@contact');
 Route::get('/login', 'PageController@login');
+
 Route::get('/review-websites', [
     'middleware' => 'auth',
     'uses' =>'PageController@review']);
 Route::get('/websites/category', 'WebsiteController@category');
 
-# Show one website
 Route::get('/websites/{name}', 'WebsiteController@show');
 
-# Review a website
+# Review a website, I used put to Review (update) a website
 Route::get('/websites/{slug}/edit', [
     'middleware' => 'auth',
     'uses' =>'WebsiteController@edit']);
 Route::put('/websites/{slug}', 'WebsiteController@update');
-# I used put to Review (update) a website
 
-# Members
+# Members ONLY
 Route::get('/members', [
     'middleware' => 'auth',
     'uses' =>'MemberController@show']);
@@ -43,12 +35,11 @@ Route::post('/members/{slug?}/add', [
         'middleware' => 'auth',
         'uses' =>'MemberController@save']);
     
-# Show all users
 Route::get('/community', [
         'middleware' => 'auth',
         'uses' =>'PageController@community']);
 
-# My debug route; left it in for debugging
+# My debug route, I left it in for debugging but no url from browser
 Route::get('/debug', function () {
 
     $debug = [
