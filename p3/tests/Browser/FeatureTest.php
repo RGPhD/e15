@@ -8,9 +8,7 @@ use Tests\DuskTestCase;
 
 class ExampleTest extends DuskTestCase
 {
-    /* My Basic browser tests
-     * @return void
-     */
+    /* My Basic browser and feature tests */
     public function testBasicHomepageInBrowser()
     {
         $this->browse(function (Browser $browser) {
