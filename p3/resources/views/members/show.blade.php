@@ -20,14 +20,14 @@ Member Websites and Reviews
         <div class='website'>
             <a href='/websites/{{ $website->slug }}'><h3>{{ $website->name }}</h3></a>
             @if($website->review)
-                <p>Coronavirus Websites' Official Latest Review... "{{ $website->review }}"</p>
+                <p>Coronavirus Websites' Official Latest Review ... {{ $website->review }}</p>
             @endif
 
             <p class='my_review'> <!--might not use this CSS-->
-            <p>My Review...  <em>"{{ $website->pivot->my_review }}"</em>
+            <p>My Review (If Available) ...  <em>{{ $website->pivot->my_review }}</em></p>
             
-                Added... {{ $website->pivot->created_at->diffForHumans() }}
-            </p></em>
+            <p>Review and or Website Added ... {{ $website->pivot->created_at->diffForHumans() }}
+            </p>
         </div>
     @endforeach
 

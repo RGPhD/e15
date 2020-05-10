@@ -8,8 +8,7 @@ use Tests\DuskTestCase;
 
 class PageTest extends DuskTestCase
 {
-    /* My Page Dusk tests.
-     * @return void
+    /* My Page Dusk tests; total dusk tests passed 16, with 29 assertions
      */
     public function testHomepage()
     {
