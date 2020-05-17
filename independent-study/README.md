@@ -75,6 +75,7 @@
 + Official course notes for Web Server Frameworks with Laravel/PHP: <https://hesweb.dev/e15>.
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
 + This note set GitHub code: <https://github.com/RGPhD/e15/tree/master/independent-study>.
++ This note set tinyurl: <https://tinyurl.com/HarvardeLearning>.
 
 ## References
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
