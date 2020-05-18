@@ -76,6 +76,8 @@
 + Harvard Extension School related Courses: <https://www.extension.harvard.edu/course-catalog/courses?subjects=Computer%20Science%2BDigital%20Media>.
 + This note set GitHub code: <https://github.com/RGPhD/e15/tree/master/independent-study>.
 + This note set tinyurl: <https://tinyurl.com/HarvardeLearning>.
++ Twitter Post: <https://twitter.com/RGPhD/status/1261997204274733057>.
++ Harvard University Blog Post: <https://blogs.harvard.edu/robelyngarcia/2020/05/17/elearning>.
 
 ## References
 + Buck, S. (2020). Separation of Concerns.  Retrieved from 
