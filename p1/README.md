@@ -1,6 +1,6 @@
-# Project 1
+# Project 1 Workflow setup + PHP foundation
 + By: *Robelyn Garcia*
-+ Production URL: <http://e15p1.robelyngarcia.me>
++ Production URL: <https://hesweb.dev/e15/projects/1>
 
 ## Outside resources
 + I Practiced my PHP logic at <https://paiza.io/projects/Onbph9MXVJCnw4TnW3OGcg>.
