@@ -32,7 +32,7 @@
 + I Practiced my HTML & CSS at <https://codepen.io/DrRobelynGarcia>.
 
 ## Notes for instructor
-+ I Validated my HTML at <https://validator.w3.org>. The only error is “Attribute dusk not allowed on element a at this point”, which is also on the http://bookmark.hesweb.xyz.
-+ I used the BootstrapCDN compiled CSS for the first time and I really like the styling, although I did not apply all of it.  This Bootstrap CSS did not validate with W3C, but I thought it would be okay since http://bookmark.hesweb.xyz had the exact same Parse Errors and CSS was not required.
++ I Validated my HTML at <https://validator.w3.org>. The only error is “Attribute dusk not allowed on element a at this point”, which is also on the bookmark site.
++ I used the BootstrapCDN compiled CSS for the first time and I really like the styling, although I did not apply all of it.  This Bootstrap CSS did not validate with W3C, but I thought it would be okay since bookmark had the exact same Parse Errors and CSS was not required.
 + I hard coded, migrated and seeded user Jill's favorite websites and reviews. While I added user Jamal's favorite websites and reviews in the browser as a registered and logged in user.
 + I also added myself as a user within the browser to test all of the features on production.  I set these up manually at the website every time I migrated and reseeded tables.
