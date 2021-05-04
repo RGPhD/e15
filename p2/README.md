@@ -1,6 +1,6 @@
-# Project 2
+# Project 2 Framework fundamentals
 + By: *Robelyn Garcia*
-+ Production URL: <http://e15p2.robelyngarcia.me>
++ Production URL: <https://hesweb.dev/e15/projects/2>
 
 ## Outside resources
 + I Practiced my PHP logic at <https://paiza.io/users/show/45209>
